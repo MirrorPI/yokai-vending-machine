@@ -1,0 +1,1100 @@
+{
+  "yokai_020": {
+    "frames": [
+      {
+        "sourcePath": "public/special-motion/yokai_020-0-6649a4ca7e22.png",
+        "publicPath": "special-motion/yokai_020-0-6649a4ca7e22.png",
+        "sha256": "6649a4ca7e222f2d978e36f5d5e764ba0fa688a6805e87d3e1e8a0028b475d55",
+        "bytes": 89690,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_020-1-53587cd93ef4.png",
+        "publicPath": "special-motion/yokai_020-1-53587cd93ef4.png",
+        "sha256": "53587cd93ef49f7a3c4c7b14eb0244ceb07ca0422eabce22a83dcd6fb879bf7a",
+        "bytes": 89953,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_020-2-6ebe01170b81.png",
+        "publicPath": "special-motion/yokai_020-2-6ebe01170b81.png",
+        "sha256": "6ebe01170b81cf04b9a0e88e0a25c173634463fdc8513a82a6ee2ed06f92dd5c",
+        "bytes": 88013,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_020-3-7337b979c811.png",
+        "publicPath": "special-motion/yokai_020-3-7337b979c811.png",
+        "sha256": "7337b979c811cc07edabb8bf1e8f8ec0e577541a7e5449c9b9fd7db14c7175c7",
+        "bytes": 87840,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_020-4-e0c7bfa130d7.png",
+        "publicPath": "special-motion/yokai_020-4-e0c7bfa130d7.png",
+        "sha256": "e0c7bfa130d7a852ee69f34606130625d411ee22c56618c8b4bb5c2f28fd2b8e",
+        "bytes": 87086,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_020-5-fc38f0c9b258.png",
+        "publicPath": "special-motion/yokai_020-5-fc38f0c9b258.png",
+        "sha256": "fc38f0c9b2589cb9e205979550d4f543229877a88ee509e2aa595b11a2e6f0e8",
+        "bytes": 85658,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_020-6-51f9434fa3cb.png",
+        "publicPath": "special-motion/yokai_020-6-51f9434fa3cb.png",
+        "sha256": "51f9434fa3cb9b21445dbb3a6d53f25f63088eeb768a6349a06677e7d2e27db6",
+        "bytes": 85806,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_020-7-cb04279ca034.png",
+        "publicPath": "special-motion/yokai_020-7-cb04279ca034.png",
+        "sha256": "cb04279ca034c01c9192c016210dd366bf520bbd354a096e3d400543dc7219f6",
+        "bytes": 84403,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_020-8-e138e1b70fa0.png",
+        "publicPath": "special-motion/yokai_020-8-e138e1b70fa0.png",
+        "sha256": "e138e1b70fa04e40ff28a57673f93ce4c0727863ba23c4ff6e143be4940d1799",
+        "bytes": 83367,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_020-9-b0d9f6eef63d.png",
+        "publicPath": "special-motion/yokai_020-9-b0d9f6eef63d.png",
+        "sha256": "b0d9f6eef63df07eaa4ce6263742d843123bf8e883366e560a8805248dcb849d",
+        "bytes": 83095,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_020-10-a45f36386aee.png",
+        "publicPath": "special-motion/yokai_020-10-a45f36386aee.png",
+        "sha256": "a45f36386aeead9c42234ce44eddeef0b95adc3f436833b00a973d855c9a673d",
+        "bytes": 82420,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_020-11-d8488ca44472.png",
+        "publicPath": "special-motion/yokai_020-11-d8488ca44472.png",
+        "sha256": "d8488ca44472ed49367ad6b82efd6bf4680546ce35e3f86c2de403315562b87b",
+        "bytes": 80662,
+        "size": [
+          192,
+          256
+        ]
+      }
+    ],
+    "aura": {
+      "sourcePath": "public/special-motion/yokai_020-aura-3df273fa3cf6.png",
+      "publicPath": "special-motion/yokai_020-aura-3df273fa3cf6.png",
+      "sha256": "3df273fa3cf6faacad00e8c92a0f3b1b049e6c4b4779733731322c908ebcba08",
+      "bytes": 77971,
+      "size": [
+        192,
+        256
+      ]
+    },
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "durationsMs": [
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180
+    ],
+    "integratedMoon": false
+  },
+  "yokai_030": {
+    "frames": [
+      {
+        "sourcePath": "public/special-motion/yokai_030-0-0844c87b9f8a.png",
+        "publicPath": "special-motion/yokai_030-0-0844c87b9f8a.png",
+        "sha256": "0844c87b9f8a4ae83f318cbf9a0c092c8e14ae69222790f1a19cdaabd93e8423",
+        "bytes": 71821,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_030-1-b1e75afc84c0.png",
+        "publicPath": "special-motion/yokai_030-1-b1e75afc84c0.png",
+        "sha256": "b1e75afc84c0f714c402f0586e9a9afcf55f06ba2ef731e388329de5ca6fcf53",
+        "bytes": 72520,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_030-2-04798e47d711.png",
+        "publicPath": "special-motion/yokai_030-2-04798e47d711.png",
+        "sha256": "04798e47d711566d1b5e73a985e4c3de0aa258b58c61fc8ba0f1cf75b31a8ef9",
+        "bytes": 72259,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_030-3-eb008bf06113.png",
+        "publicPath": "special-motion/yokai_030-3-eb008bf06113.png",
+        "sha256": "eb008bf06113c1f894499a04b5368c59eb4ccd1b25d5fdf79e784192f55a9ddc",
+        "bytes": 72057,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_030-4-ccef5c62bde0.png",
+        "publicPath": "special-motion/yokai_030-4-ccef5c62bde0.png",
+        "sha256": "ccef5c62bde0e6db3f9046e5b949a777e2ce27d7653c383ae2ad446444f13567",
+        "bytes": 72734,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_030-5-7b96c5496d36.png",
+        "publicPath": "special-motion/yokai_030-5-7b96c5496d36.png",
+        "sha256": "7b96c5496d368674bdf42a8422c03ed748294ba6a21eaf42ef180b4b645f1e2c",
+        "bytes": 73204,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_030-6-fb3a7e835200.png",
+        "publicPath": "special-motion/yokai_030-6-fb3a7e835200.png",
+        "sha256": "fb3a7e835200516b31bb66ca9d9254fb23ddefb2b85e03e7bead3ec44b21df6e",
+        "bytes": 71944,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_030-7-30cb23ab176e.png",
+        "publicPath": "special-motion/yokai_030-7-30cb23ab176e.png",
+        "sha256": "30cb23ab176ebf92ed29f82557c466c8911ed6ac12ef2025e5a53616616e06f1",
+        "bytes": 72549,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_030-8-89cfdccba35d.png",
+        "publicPath": "special-motion/yokai_030-8-89cfdccba35d.png",
+        "sha256": "89cfdccba35dde1ffe044b2e220ff0ab61ff696bd93b7c27e667b414fdf28bd0",
+        "bytes": 72693,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_030-9-020dabc72974.png",
+        "publicPath": "special-motion/yokai_030-9-020dabc72974.png",
+        "sha256": "020dabc7297404e23af89ad20162438e738f2e5f3f55e3d17f15d157e9fa36d2",
+        "bytes": 69434,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_030-10-c7691a252e13.png",
+        "publicPath": "special-motion/yokai_030-10-c7691a252e13.png",
+        "sha256": "c7691a252e132d0b04ee0ba8e206a5bce2c430b0f7497b7d058888b78c5fc740",
+        "bytes": 70249,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_030-11-30ea7b017470.png",
+        "publicPath": "special-motion/yokai_030-11-30ea7b017470.png",
+        "sha256": "30ea7b01747061af978d4c6e80d2ed75e6f5b3f3ca57fa07e577c4b956c98a62",
+        "bytes": 70306,
+        "size": [
+          192,
+          256
+        ]
+      }
+    ],
+    "aura": {
+      "sourcePath": "public/special-motion/yokai_030-aura-3aaec5b0ab30.png",
+      "publicPath": "special-motion/yokai_030-aura-3aaec5b0ab30.png",
+      "sha256": "3aaec5b0ab30a6a62cf4043f673eeb94958dcdda9028000ec21a917f15c0df60",
+      "bytes": 78223,
+      "size": [
+        192,
+        256
+      ]
+    },
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "durationsMs": [
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180
+    ],
+    "integratedMoon": false
+  },
+  "yokai_040": {
+    "frames": [
+      {
+        "sourcePath": "public/special-motion/yokai_040-0-ea8604ad0aa0.png",
+        "publicPath": "special-motion/yokai_040-0-ea8604ad0aa0.png",
+        "sha256": "ea8604ad0aa05b2645e39a4e697aef18e678b09dd2a98daa8ca9c37392ae4095",
+        "bytes": 95443,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_040-1-15c77833ea49.png",
+        "publicPath": "special-motion/yokai_040-1-15c77833ea49.png",
+        "sha256": "15c77833ea49e7ae3f4b5942b8c0f5e54ff59ca665da1a86c7564e28a073e99c",
+        "bytes": 96437,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_040-2-79b6f0081aee.png",
+        "publicPath": "special-motion/yokai_040-2-79b6f0081aee.png",
+        "sha256": "79b6f0081aeeaccc476ca93eec5f4bf239fa59ade03263cdde949cfe374d0cf4",
+        "bytes": 95317,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_040-3-6de49ae8fa54.png",
+        "publicPath": "special-motion/yokai_040-3-6de49ae8fa54.png",
+        "sha256": "6de49ae8fa54ee61eccf4fb52aa1c38175a7be577d151ec040a7f372e0cf1718",
+        "bytes": 95370,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_040-4-39347dfb063f.png",
+        "publicPath": "special-motion/yokai_040-4-39347dfb063f.png",
+        "sha256": "39347dfb063f6530c1f81892f7eff978f5a5ae569049f19c0e95084ed311acb2",
+        "bytes": 97102,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_040-5-b0d5af8fe11e.png",
+        "publicPath": "special-motion/yokai_040-5-b0d5af8fe11e.png",
+        "sha256": "b0d5af8fe11ecef99d5c329d8430b93f4bf07ed12e6e831a1b268dc2d5b55128",
+        "bytes": 96245,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_040-6-488f15837f8c.png",
+        "publicPath": "special-motion/yokai_040-6-488f15837f8c.png",
+        "sha256": "488f15837f8c2f4f79009541e3b013499ae2bf7e303d081eeeb1eda3b34b852c",
+        "bytes": 95383,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_040-7-c18e7fd94d76.png",
+        "publicPath": "special-motion/yokai_040-7-c18e7fd94d76.png",
+        "sha256": "c18e7fd94d76b8fbfcdaf089a9dce6546d08c8e7e4b167ff9226bfeb420199cb",
+        "bytes": 97247,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_040-8-87ec39d52dd3.png",
+        "publicPath": "special-motion/yokai_040-8-87ec39d52dd3.png",
+        "sha256": "87ec39d52dd3dbbc407dad6062780be15748d3f7e369bb73c1947bdcff0ce1ad",
+        "bytes": 96349,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_040-9-b9028cf3e2bd.png",
+        "publicPath": "special-motion/yokai_040-9-b9028cf3e2bd.png",
+        "sha256": "b9028cf3e2bdb1aa93a93c77e6ae00c3b4e881247412c6768639036a49075852",
+        "bytes": 95432,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_040-10-b59189646a1f.png",
+        "publicPath": "special-motion/yokai_040-10-b59189646a1f.png",
+        "sha256": "b59189646a1f53badf36247032c41613d968192c3b8de3cb14124dc44d54220f",
+        "bytes": 96757,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_040-11-bc4101bd296a.png",
+        "publicPath": "special-motion/yokai_040-11-bc4101bd296a.png",
+        "sha256": "bc4101bd296aca96390b474d1ce62e76d0eafff4cb842e71e88db5710efe8a76",
+        "bytes": 95594,
+        "size": [
+          192,
+          256
+        ]
+      }
+    ],
+    "aura": {
+      "sourcePath": "public/special-motion/yokai_040-aura-73087e3d48b9.png",
+      "publicPath": "special-motion/yokai_040-aura-73087e3d48b9.png",
+      "sha256": "73087e3d48b9a35d9f538e7728d75c93c672e71cb180a85896470eacbdf9d39c",
+      "bytes": 73354,
+      "size": [
+        192,
+        256
+      ]
+    },
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "durationsMs": [
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180
+    ],
+    "integratedMoon": false
+  },
+  "yokai_050": {
+    "frames": [
+      {
+        "sourcePath": "public/special-motion/yokai_050-0-da8adf805bcf.png",
+        "publicPath": "special-motion/yokai_050-0-da8adf805bcf.png",
+        "sha256": "da8adf805bcfb852b7981abe19f87afef087da879668a3dae5ff8915bda581cb",
+        "bytes": 72862,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_050-1-c18be688fe28.png",
+        "publicPath": "special-motion/yokai_050-1-c18be688fe28.png",
+        "sha256": "c18be688fe28c0bbb64d65bf73a84fb9fa6dbeecadfb783de6b7b7b5fba939ba",
+        "bytes": 73324,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_050-2-8f680dfe74d2.png",
+        "publicPath": "special-motion/yokai_050-2-8f680dfe74d2.png",
+        "sha256": "8f680dfe74d272efae76780aa9735a17374f8f0b126a9bb849a2666f69d0e4c7",
+        "bytes": 71928,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_050-3-96c596686e6c.png",
+        "publicPath": "special-motion/yokai_050-3-96c596686e6c.png",
+        "sha256": "96c596686e6c169c1c50ca9123df5d938b0dd9a8076d3ce98557752198df5e96",
+        "bytes": 71269,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_050-4-8cfa03edb0c2.png",
+        "publicPath": "special-motion/yokai_050-4-8cfa03edb0c2.png",
+        "sha256": "8cfa03edb0c27ef0e2115b9ebedf7e7926d8c5f06344c5d61311cc65a9cfdd33",
+        "bytes": 70985,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_050-5-7a6747da2d04.png",
+        "publicPath": "special-motion/yokai_050-5-7a6747da2d04.png",
+        "sha256": "7a6747da2d04eed8ea421ae2f73f1f1d2796ea4ecab12acfe8c36f6b9f151f80",
+        "bytes": 70316,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_050-6-145b62aaed67.png",
+        "publicPath": "special-motion/yokai_050-6-145b62aaed67.png",
+        "sha256": "145b62aaed6790181a38560a1d7dcc38f8b32d62e6a72848f743b225a31a3971",
+        "bytes": 69058,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_050-7-357c96aee31b.png",
+        "publicPath": "special-motion/yokai_050-7-357c96aee31b.png",
+        "sha256": "357c96aee31bf8adb7fcff3f303147cdb1ac9b2169e65037538b8bca1addf138",
+        "bytes": 69780,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_050-8-b6b241d2a5e3.png",
+        "publicPath": "special-motion/yokai_050-8-b6b241d2a5e3.png",
+        "sha256": "b6b241d2a5e328f0e98d35cb7533dfa83c95829674781d105b9a9acbdb85644a",
+        "bytes": 68021,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_050-9-95e191959332.png",
+        "publicPath": "special-motion/yokai_050-9-95e191959332.png",
+        "sha256": "95e19195933200d621d1e5f07b4197b00985d83f52ecf186313fc5d906f72500",
+        "bytes": 68546,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_050-10-c6556a9e1139.png",
+        "publicPath": "special-motion/yokai_050-10-c6556a9e1139.png",
+        "sha256": "c6556a9e113979c648571e24f775ca54c92ac8137be97bff096b1da7d21a1064",
+        "bytes": 67745,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_050-11-58f76012d995.png",
+        "publicPath": "special-motion/yokai_050-11-58f76012d995.png",
+        "sha256": "58f76012d9953d62a0d1f343a4c6496cad1a0185cdb036519abf4c94891afe75",
+        "bytes": 66695,
+        "size": [
+          192,
+          256
+        ]
+      }
+    ],
+    "aura": {
+      "sourcePath": "public/special-motion/yokai_050-aura-808b32d0a5a5.png",
+      "publicPath": "special-motion/yokai_050-aura-808b32d0a5a5.png",
+      "sha256": "808b32d0a5a56a47efe8dbf4ff0ce041c0d850270dc3c343b7641cf4c0add432",
+      "bytes": 66291,
+      "size": [
+        192,
+        256
+      ]
+    },
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "durationsMs": [
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180
+    ],
+    "integratedMoon": true
+  },
+  "yokai_060": {
+    "frames": [
+      {
+        "sourcePath": "public/special-motion/yokai_060-0-0a8e05c2ef0e.png",
+        "publicPath": "special-motion/yokai_060-0-0a8e05c2ef0e.png",
+        "sha256": "0a8e05c2ef0ea011eb4a4fd49d35a4b010045d7685a7c3230f348c4f75f1b641",
+        "bytes": 82943,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_060-1-b1e4043681e3.png",
+        "publicPath": "special-motion/yokai_060-1-b1e4043681e3.png",
+        "sha256": "b1e4043681e36f092df34e78309041e5df4050ca70e2d3c411ae95fb935c0fae",
+        "bytes": 81709,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_060-2-dcc99296a1c1.png",
+        "publicPath": "special-motion/yokai_060-2-dcc99296a1c1.png",
+        "sha256": "dcc99296a1c13c82230b12c5afd60a3b491d131a925e886e13cb734f95ecfa0c",
+        "bytes": 81320,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_060-3-ab1903ba5287.png",
+        "publicPath": "special-motion/yokai_060-3-ab1903ba5287.png",
+        "sha256": "ab1903ba5287bf438f3de253dea8bc037d2baf9a8433445c2ec744f13094e5ac",
+        "bytes": 80838,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_060-4-5bebd507cbe8.png",
+        "publicPath": "special-motion/yokai_060-4-5bebd507cbe8.png",
+        "sha256": "5bebd507cbe858ecaeaeb3249271c4823934a8e47c68ea80e574bf94538b1e49",
+        "bytes": 80516,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_060-5-cd20f5a18c44.png",
+        "publicPath": "special-motion/yokai_060-5-cd20f5a18c44.png",
+        "sha256": "cd20f5a18c44aa4c1718d2dc6467753d6a7fb25d120be6b6a1c03cb9ea9987bf",
+        "bytes": 79806,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_060-6-7296d7b1a18e.png",
+        "publicPath": "special-motion/yokai_060-6-7296d7b1a18e.png",
+        "sha256": "7296d7b1a18e9a556ea2d579e686e132f6ca2affa1e0ead704fc85bea2073859",
+        "bytes": 78939,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_060-7-7e0f0d0684bc.png",
+        "publicPath": "special-motion/yokai_060-7-7e0f0d0684bc.png",
+        "sha256": "7e0f0d0684bcc5a0ec73d4441119ed2d4039e9eb2e2346d29671d269a9850416",
+        "bytes": 78340,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_060-8-501bda65f363.png",
+        "publicPath": "special-motion/yokai_060-8-501bda65f363.png",
+        "sha256": "501bda65f3639138eb09258d14040de6a4d6db6e8d89357d5fe3ae1f41aac110",
+        "bytes": 77895,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_060-9-c1510af58370.png",
+        "publicPath": "special-motion/yokai_060-9-c1510af58370.png",
+        "sha256": "c1510af583700c9b056a3c026a36f4d5f26a231bc01dfbe3512a6a3625c52a47",
+        "bytes": 76607,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_060-10-6dd28ce2290e.png",
+        "publicPath": "special-motion/yokai_060-10-6dd28ce2290e.png",
+        "sha256": "6dd28ce2290ed5e3c2b68c198ddb045830ed33ea030cafd702f92c58e2911acc",
+        "bytes": 75467,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_060-11-684c138dac60.png",
+        "publicPath": "special-motion/yokai_060-11-684c138dac60.png",
+        "sha256": "684c138dac60753971c544dc0a3ca9e8b17fb8b493ceb6f49652cafb88d0f753",
+        "bytes": 73847,
+        "size": [
+          192,
+          256
+        ]
+      }
+    ],
+    "aura": {
+      "sourcePath": "public/special-motion/yokai_060-aura-74bebce43923.png",
+      "publicPath": "special-motion/yokai_060-aura-74bebce43923.png",
+      "sha256": "74bebce43923ae73e9895c7842af3379088aced8513c58af6adc42446f8988ed",
+      "bytes": 73898,
+      "size": [
+        192,
+        256
+      ]
+    },
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "durationsMs": [
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180
+    ],
+    "integratedMoon": false
+  },
+  "yokai_068": {
+    "frames": [
+      {
+        "sourcePath": "public/special-motion/yokai_068-0-acd7f097d52a.png",
+        "publicPath": "special-motion/yokai_068-0-acd7f097d52a.png",
+        "sha256": "acd7f097d52a5137d034c06d6f62ef2554f4b3a8a3466f967bb184364195295f",
+        "bytes": 89905,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_068-1-885cb338357a.png",
+        "publicPath": "special-motion/yokai_068-1-885cb338357a.png",
+        "sha256": "885cb338357a66e52c444289fd9de80384932532ae70ce2278363e02c3af0e6c",
+        "bytes": 91153,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_068-2-78d7e78eeb12.png",
+        "publicPath": "special-motion/yokai_068-2-78d7e78eeb12.png",
+        "sha256": "78d7e78eeb12c8afd75c45c715b3da4dd70430011efacbfea14f5002ca7de852",
+        "bytes": 90230,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_068-3-0a8e65a3098d.png",
+        "publicPath": "special-motion/yokai_068-3-0a8e65a3098d.png",
+        "sha256": "0a8e65a3098df505ecc4e9fe5b165ea1071f7ca53cd9c2b2e53c0774234c20da",
+        "bytes": 88840,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_068-4-f0f9c89c44bd.png",
+        "publicPath": "special-motion/yokai_068-4-f0f9c89c44bd.png",
+        "sha256": "f0f9c89c44bd0499b9fb39a4ff974481711c8ea1413dee41ad50be8474575430",
+        "bytes": 89768,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_068-5-73779ff94963.png",
+        "publicPath": "special-motion/yokai_068-5-73779ff94963.png",
+        "sha256": "73779ff949635f61203232e308a18e1704154d7e96a6bb1493d6b107cd0195ff",
+        "bytes": 89703,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_068-6-404b80f61d7d.png",
+        "publicPath": "special-motion/yokai_068-6-404b80f61d7d.png",
+        "sha256": "404b80f61d7d0480bb225dfacfdb474b12876481bfab46927d95b8bcd3d76dc0",
+        "bytes": 89648,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_068-7-b3ada021d956.png",
+        "publicPath": "special-motion/yokai_068-7-b3ada021d956.png",
+        "sha256": "b3ada021d956e59b6db6f1a365594e089d2194bcf23522c5bfc9a357e918cdc0",
+        "bytes": 89998,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_068-8-f0e0d827c582.png",
+        "publicPath": "special-motion/yokai_068-8-f0e0d827c582.png",
+        "sha256": "f0e0d827c582e460c1ab93b51a537fa0bbe32f389ab23d8631dbffefb1e35ed4",
+        "bytes": 90084,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_068-9-d078eece7215.png",
+        "publicPath": "special-motion/yokai_068-9-d078eece7215.png",
+        "sha256": "d078eece72157b7d8beeac5eb4fd6fe73ba0b96d75bce3314ab19f79f016666b",
+        "bytes": 89196,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_068-10-616b88c4cbdf.png",
+        "publicPath": "special-motion/yokai_068-10-616b88c4cbdf.png",
+        "sha256": "616b88c4cbdf8123218346d58bc6a706554387ca6881be5bf587c9a481005960",
+        "bytes": 89409,
+        "size": [
+          192,
+          256
+        ]
+      },
+      {
+        "sourcePath": "public/special-motion/yokai_068-11-42f7c2b787af.png",
+        "publicPath": "special-motion/yokai_068-11-42f7c2b787af.png",
+        "sha256": "42f7c2b787affe8101a6cb5e2247fe530493d642cfac24f4b5c2e7c277f8bcf8",
+        "bytes": 88606,
+        "size": [
+          192,
+          256
+        ]
+      }
+    ],
+    "aura": {
+      "sourcePath": "public/special-motion/yokai_068-aura-0005aca368f4.png",
+      "publicPath": "special-motion/yokai_068-aura-0005aca368f4.png",
+      "sha256": "0005aca368f4f65600eb86e33d15f1666391ea6db5623ea977e04bce136aeb97",
+      "bytes": 67156,
+      "size": [
+        192,
+        256
+      ]
+    },
+    "sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "durationsMs": [
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      200,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180,
+      180
+    ],
+    "integratedMoon": false
+  }
+}

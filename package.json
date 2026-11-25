@@ -1,0 +1,48 @@
+{
+  "name": "yokai-vending",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.17.0"
+  },
+  "scripts": {
+    "dev": "npm run assets:check && npm run assets:sync && npm run motion:generate && npm run photos:generate && npm run content:generate && vite",
+    "typecheck": "tsc --noEmit",
+    "prebuild": "npm run assets:check && npm run assets:sync && npm run motion:generate && npm run photos:generate && npm run content:generate",
+    "build": "npm run typecheck && vite build",
+    "test": "node --experimental-strip-types --test scripts/*.test.mjs",
+    "assets:generate": "node scripts/assets.mjs generate",
+    "assets:check": "node scripts/assets.mjs check",
+    "assets:sync": "node scripts/assets.mjs sync",
+    "server:dev": "node --experimental-strip-types server/local.mjs",
+    "dev:account": "npm run assets:check && npm run assets:sync && npm run motion:generate && npm run photos:generate && npm run content:generate && node --experimental-strip-types server/local-preview.mjs",
+    "server:build": "node infra/prepare.mjs",
+    "aws:preflight": "node infra/aws-preflight.mjs",
+    "aws:deploy": "npm run build && node infra/deploy.mjs",
+    "account:backup": "node --experimental-strip-types server/backup-cli.mjs",
+    "photos:generate": "node --experimental-strip-types scripts/shared-photos.mjs",
+    "motion:generate": "node --experimental-strip-types scripts/special-motion.mjs",
+    "content:generate": "node scripts/content-assets.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cloudformation": "^3.1169.0",
+    "@aws-sdk/client-dynamodb": "^3.1169.0",
+    "@aws-sdk/client-freetier": "^3.1169.0",
+    "@aws-sdk/client-lambda": "^3.1169.0",
+    "@aws-sdk/client-s3": "^3.1169.0",
+    "@aws-sdk/client-sts": "^3.1169.0",
+    "@aws-sdk/lib-dynamodb": "^3.1169.0",
+    "aws-jwt-verify": "^5.2.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "esbuild": "^0.28.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  }
+}

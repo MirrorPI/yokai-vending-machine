@@ -1,0 +1,77 @@
+/* Hand drawn on an integer grid. Keep the stair-step corners at their native
+   size while the middle of each tablet spans its own label. */
+.game-shell { --stone-growth: url('./art/weather-spring.svg'); }
+.game-shell[data-ui-season="summer"] { --stone-growth: url('./art/weather-summer.svg'); }
+.game-shell[data-ui-season="autumn"] { --stone-growth: url('./art/weather-autumn.svg'); }
+.game-shell[data-ui-season="winter"] { --stone-growth: url('./art/weather-winter.svg'); }
+
+.game-shell .pip-toggle { --stone-face: url('./art/stone-window.svg'); --growth-edge: 12px; }
+.game-shell .settings-open { --stone-face: url('./art/stone-settings.svg'); --growth-edge: 16px; }
+.game-shell .inventory-open { --stone-face: url('./art/stone-items.svg'); --growth-edge: 23px; }
+.game-shell .encyclopedia-open { --stone-face: url('./art/stone-book.svg'); --growth-edge: 14px; }
+.game-shell :is(.encyclopedia-header button, [data-stone="seal"]) { --stone-face: url('./art/stone-seal.svg'); --growth-width: 20px; }
+:is(.game-shell, .fire-preview) :is([data-stone="back"], .encyclopedia-filters button:nth-child(even), .encyclopedia-slots button:nth-child(even), [role="switch"]) {
+  --stone-face: url('./art/stone-chip.svg');
+}
+:is(.game-shell, .fire-preview) :is(.first-visit button, .code-card button, [data-stone="primary"]) { --stone-face: url('./art/stone-arch.svg'); }
+
+/* Non-card controls. The real HTML button remains the full-size hit area. */
+:is(.game-shell, .fire-preview) button:not(.encyclopedia-card, .inventory-slot, .runtime-verification button) {
+  position: relative;
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 0;
+  border-image: var(--stone-face, url('./art/stone-shard.svg')) 12 14 fill / 12px 14px / 0 stretch;
+  box-shadow: none;
+  color: #fff1cc;
+  font-weight: 760;
+  text-shadow: 0 -1px #1d2822, 0 1px #26332b, 1px 2px #25322a;
+  transition: filter 120ms ease;
+  image-rendering: pixelated;
+}
+.game-shell button:is(.pip-toggle, .settings-open, .observation-retry, .settings-retry-note):not(.runtime-verification button) { position: absolute; }
+.game-shell .settings-open { min-width: 52px; }
+.game-shell .collection-footer-nav button { inset: auto; min-height: 30px; padding: 3px 7px; }
+.game-shell .encyclopedia-header button { min-width: 58px; padding: 7px 10px; }
+:is(.game-shell, .fire-preview) button:not(.encyclopedia-card, .inventory-slot, .runtime-verification button)::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  right: var(--growth-edge, 7px);
+  width: var(--growth-width, 30px);
+  height: 9px;
+  background: var(--stone-growth, url('./art/weather-spring.svg')) center / contain no-repeat;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+.game-shell :is(.inventory-open, .encyclopedia-open, .pip-toggle, .settings-open)::after { --growth-width: 26px; height: 8px; top: -3px; }
+:is(.game-shell, .fire-preview) button:not(.encyclopedia-card, .inventory-slot, .runtime-verification button):hover:not(:disabled) { filter: brightness(1.17); }
+:is(.game-shell, .fire-preview) button:not(.encyclopedia-card, .inventory-slot, .runtime-verification button):active:not(:disabled) { filter: brightness(.88); }
+:is(.game-shell, .fire-preview) button:not(.encyclopedia-card, .inventory-slot, .runtime-verification button):is([aria-pressed="true"], [aria-checked="true"]) {
+  color: #fff8d8;
+  filter: sepia(.26) saturate(1.28) brightness(1.17);
+  text-decoration: underline;
+  text-decoration-color: #f0d18a;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+:is(.game-shell, .fire-preview) button:not(.encyclopedia-card, .inventory-slot, .runtime-verification button):focus-visible { outline: 2px solid #be934f; outline-offset: 1px; }
+.game-shell .inventory-dot { border-radius: 0; transform: rotate(45deg); margin-top: 4px; }
+@media (forced-colors: active) {
+  :is(.game-shell, .fire-preview) button:not(.encyclopedia-card, .inventory-slot, .runtime-verification button) { border: 2px solid ButtonText; color: ButtonText; background: ButtonFace; text-shadow: none; }
+  :is(.game-shell, .fire-preview) button::after { display: none; }
+}
+
+/* Selected filters stay legible over the stone texture and seasonal decoration. */
+.game-shell .field-guide button[aria-pressed="true"] {
+  outline: 2px solid #a66b16; outline-offset: 1px;
+  box-shadow: 0 0 0 3px #ffe5a0;
+  filter: brightness(1.3) saturate(1.25);
+  text-decoration: none;
+}
+.game-shell .field-guide button[aria-pressed="true"]::before {
+  content: '✓'; position: absolute; z-index: 2; top: -5px; left: -3px;
+  width: 12px; height: 12px; background: #ffe5a0; color: #31402c;
+  font: bold 10px/12px sans-serif; text-shadow: none; border: 1px solid #a66b16;
+  pointer-events: none;
+}

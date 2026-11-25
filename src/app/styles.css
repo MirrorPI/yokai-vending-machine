@@ -1,0 +1,233 @@
+@font-face {
+  font-family: 'Galmuri11'; src: url('./fonts/Galmuri11.woff2') format('woff2');
+  font-style: normal; font-weight: 100 500; font-display: swap;
+}
+@font-face {
+  font-family: 'Galmuri11'; src: url('./fonts/Galmuri11-Bold.woff2') format('woff2');
+  font-style: normal; font-weight: 600 900; font-display: swap;
+}
+:root {
+  color: #eee8d7;
+  background: #101c1b;
+  --font-game: 'Galmuri11', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+  font-family: var(--font-game);
+  font-synthesis: none;
+  --ink: #293d34;
+  --muted: #728072;
+  --paper: #f3efdf;
+  --line: #d8d8c2;
+  --accent: #4b6550;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 192px; min-height: 320px; background: radial-gradient(ellipse at 50% 30%, #293b30 0%, #142220 48%, #0c1516 100%); min-height: 100svh; }
+button, select, input, textarea { font: inherit; }
+button { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+button:disabled { opacity: .5; cursor: default; }
+button:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid #caa461; outline-offset: 3px; }
+.game-shell { position: absolute; border-radius: 14px; box-shadow: 0 22px 75px #0006, 0 0 0 1px #b9c3a629; }
+.game-scene-area { position: relative; container-type: inline-size; }
+.maintenance-screen { display: grid; min-height: 100svh; place-items: center; padding: 16px; }
+.maintenance-card { width: min(100%, 440px); padding: 28px 20px; border: 1px solid #829581; border-radius: 14px; background: #1d302c; text-align: center; }
+.maintenance-card h1 { margin: 12px 0; font-size: clamp(18px, 5vw, 25px); color: #fff1d5; }
+.maintenance-card p { margin: 0; color: #c4ceb9; font-size: 13px; line-height: 1.7; }
+.scene-container, .scene { position: relative; overflow: hidden; background: #111e25; }
+.scene-container { border-radius: 14px 14px 0 0; }
+.scene-layer { position: absolute; display: block; max-width: none; pointer-events: none; user-select: none; image-rendering: pixelated; }
+.scene-status { position: absolute; z-index: 1; inset: auto 10px 6px; margin: 0; padding: 5px; font-size: 11px; text-align: center; color: #e6dfc8; background: #182820e6; border-radius: 6px; }
+.scene-status:empty { display: none; }
+.ad-band { height: var(--footer-height, 74px); display: flex; flex-direction: column; border-top: 1px solid #a6b18b40; border-radius: 0 0 14px 14px; background: linear-gradient(115deg,#273b30,#1c2e27); }
+.collection-nav-slot { width: 100%; }
+.collection-nav-slot:empty { display: none; }
+
+.collection-footer-nav { display: grid; grid-template-columns: repeat(2, minmax(0, 100px)); justify-content: center; gap: 6px; padding: 4px 8px; }
+.collection-footer-nav .inventory-open, .collection-footer-nav .encyclopedia-open { position: static; width: 100%; min-width: 0; min-height: 30px; padding: 3px 7px; font-size: 12px; }
+.collection-dock { position: absolute; top: 0; height: calc(100% + var(--footer-height, 74px)); container-type: inline-size; }
+.collection-dock .encyclopedia-panel { box-shadow: 0 12px 32px #0003; }
+.collection-dock .encyclopedia-header { min-height: 62px; }
+.ad-slot { position: relative; width: 100%; flex: 1; min-height: 34px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0; padding: 2px 5px; border-top: 1px solid #b4be9a35; background: radial-gradient(ellipse at 50% 100%,#53604a40,transparent 70%),#15241f; border-radius: 0 0 12px 12px; }
+.ad-caption { position: absolute; top: 2px; left: 5px; font-size: 6px; letter-spacing: .08em; color: #8e9b81; }
+.ad-title { font: 12px/1.1 var(--font-game); color: #ddd4ad; letter-spacing: .18em; }
+.ad-placeholder { font-size: 8px; color: #93a28a; }
+.ad-slot { text-decoration: none; cursor: pointer; }
+.ad-slot:hover { background-color: #203c32; }
+.ad-slot:focus-visible { outline-offset: -3px; }
+.game-shell-compact, .game-shell-compact .scene-container { border-radius: 0; }
+.game-shell-compact .ad-band, .game-shell-compact .ad-slot { border-radius: 0; }
+
+.preview-note { margin: 10px 0 0; text-align: center; font-size: 11px; color: #a8b7b7; }
+.runtime-overlays, .runtime-fade { position: absolute; inset: 0; pointer-events: none; }
+.runtime-note { position: absolute; z-index: 2; top: 66px; left: 10px; right: 10px; margin: 0; padding: 4px 8px; border-radius: 20px; background: #14251bc9; color: #d7e1c9; font-size: 10px; line-height: 1.5; text-align: center; pointer-events: none; }
+.capture-note { position: absolute; z-index: 2; bottom: 12px; left: 12px; right: 12px; margin: 0; padding: 9px 10px; border: 1px solid #d5dfbc45; border-radius: 10px; background: #1b3027e8; color: #eef0d8; font-size: 11px; line-height: 1.6; text-align: center; pointer-events: none; box-shadow: 0 4px 14px #0002; }
+.capture-note:empty { display: none; }
+.runtime-verification { position: absolute; left: 0; right: 0; padding: 8px; font-size: 11px; background: #16262a; }
+.runtime-verification button { margin: 2px; font: inherit; }
+/* One flash for an accepted capture, outside all photo composition layers. */
+.camera-shutter { position: absolute; inset: 0; z-index: 10; border-radius: 14px 14px 0 0; pointer-events: none; background: #fffce9; animation: camera-shutter 520ms ease-out both; }
+@keyframes camera-shutter { 0% { opacity: .95; } 18% { opacity: .82; } 45% { opacity: .32; } 100% { opacity: 0; } }
+.encyclopedia-open, .inventory-open, .settings-open, .pip-toggle, .observation-retry {
+  position: absolute; z-index: 4; min-width: 36px; min-height: 34px; padding: 5px 10px;
+  border: 1px solid #9ba38a; border-bottom: 3px solid #182823; border-radius: 9px 13px 8px 12px;
+  background: radial-gradient(ellipse at 5% 5%,#82986295,transparent 38%),radial-gradient(ellipse at 90% 100%,#87926855,transparent 32%),linear-gradient(165deg,#626d64 0%,#424e4b 45%,#293c37 100%);
+  color: #fff5d8; box-shadow: inset 0 1px 0 #e3e4be70,inset 1px 0 0 #bbc3a12b,0 3px 6px #0006;
+  text-shadow: 0 1px 2px #16211b; font-family: var(--font-game);
+  font-size: 14px; line-height: 1.3; font-weight: 700; letter-spacing: .02em;
+  transition: filter .15s, border-color .15s;
+}
+.encyclopedia-open { bottom: 18px; left: calc(50% + 4px); width: calc(50% - 18px); }
+.inventory-open { bottom: 18px; right: calc(50% + 4px); width: calc(50% - 18px); }
+.settings-open { top: 8px; right: 8px; }
+.pip-toggle { top: 8px; left: 8px; max-width: 116px; }
+.pip-toggle, .settings-open { min-height: 28px; padding: 3px 7px; font-size: 12px; }
+.inventory-dot { display: inline-block; width: 6px; height: 6px; margin-left: 6px; border-radius: 50%; background: #f0cc81; vertical-align: top; box-shadow: 0 0 6px #f0cc8144; }
+.encyclopedia-backdrop { position: absolute; z-index: 20; inset: 0; padding: 10px; background: #0a191bb3; border-radius: 14px 14px 0 0; }
+.encyclopedia-panel { height: 100%; min-width: 0; display: flex; flex-direction: column; border: 1px solid #ded7b7; border-radius: 14px; color: var(--ink); background: var(--paper); box-shadow: 0 12px 32px #0005; font-size: 12px; line-height: 1.65; overflow: hidden; }
+.encyclopedia-panel button, .encyclopedia-panel summary { min-width: 34px; min-height: 34px; cursor: pointer; }
+.encyclopedia-panel button { border: 1px solid #b9c0a4; border-bottom: 2px solid #9ca58c; border-radius: 7px 11px 6px 10px; background: linear-gradient(150deg,#f3f0dc,#dfe4cd); color: var(--ink); padding: 5px 8px; font-size: 13px; transition: background .15s, border-color .15s; }
+.encyclopedia-panel button:hover { background: #e5e9d4; border-color: #9eaf90; }
+.encyclopedia-panel button[aria-pressed="true"] { background: linear-gradient(135deg,#6b8150,#344f38); color: #fffae8; border-color: #526943; box-shadow: inset 0 1px 0 #c2d29b55; }
+.encyclopedia-panel :focus-visible { outline: 2px solid #937849; outline-offset: -3px; }
+.encyclopedia-header { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 12px 14px; border-bottom: 1px solid var(--line); background: #e7e9d8; flex-shrink: 0; }
+.encyclopedia-header h2 { margin: 0; font-family: var(--font-game); font-size: 19px; font-weight: 700; letter-spacing: .06em; }
+.encyclopedia-header button { border-color: #bdc7ae; font-size: 13px; padding: 4px 9px; }
+.encyclopedia-scroll { min-height: 0; overflow: auto; padding: 14px; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #a5b094 transparent; scrollbar-gutter: stable; }
+.encyclopedia-panel p { margin: 7px 0; }
+.encyclopedia-panel h3 { font-size: 16px; line-height: 1.5; overflow-wrap: anywhere; }
+.encyclopedia-panel h4 { font-size: 13px; line-height: 1.6; margin: 16px 0 6px; }
+.encyclopedia-progress { border: 1px solid #d5dcc5; border-radius: 10px; padding: 10px 12px; margin-bottom: 12px; background: #e9eddc; }
+.encyclopedia-progress > p:first-child { font-size: 15px; font-weight: 700; color: #3b553a; }
+.encyclopedia-progress > p:nth-child(2) { font-weight: 600; color: #657655; }
+.encyclopedia-progress > p { font-size: 11px; }
+.encyclopedia-panel details summary { display: flex; align-items: center; color: #64705c; font-size: 11px; }
+.encyclopedia-panel details summary::before { content: '+'; margin-right: 8px; font-size: 16px; }
+.encyclopedia-panel details[open] summary::before { content: '−'; }
+.encyclopedia-filters, .encyclopedia-actions, .encyclopedia-slots { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+.encyclopedia-filters { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); }
+.encyclopedia-filters button { border-radius: 13px 3px 13px 3px; font-size: 13px; padding: 4px 6px; }
+.encyclopedia-filter-count { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; color: #435d40; font-weight: 700; }
+.encyclopedia-filter-count small { color: var(--muted); font-size: 10px; font-weight: 400; }
+.encyclopedia-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px; }
+.encyclopedia-panel .encyclopedia-card { display: flex; flex-direction: column; align-items: center; justify-content: start; gap: 5px; min-width: 0; padding: 10px 7px 12px; text-align: center; overflow-wrap: anywhere; background: #fffdf5; box-shadow: 0 2px 0 #d9d8c44d; }
+.encyclopedia-card strong { font-size: 12px; font-weight: 650; }
+.encyclopedia-number { align-self: start; font-size: 10px; letter-spacing: .1em; color: #849078; font-variant-numeric: tabular-nums; }
+.encyclopedia-portrait-frame { display: grid; place-items: center; width: 100%; height: 80px; margin: 3px 0; border-radius: 9px; background: radial-gradient(ellipse,#e3e8cf,#f2f2e4); }
+.encyclopedia-portrait { display: block; max-width: 100%; width: 72px; height: 72px; object-fit: contain; image-rendering: pixelated; }
+.encyclopedia-card-symbol { display: grid; place-items: center; width: 48px; height: 48px; color: #b2bca6; border: 1px dashed #ccd3bd; border-radius: 50%; font: 24px var(--font-game); }
+.encyclopedia-card small { color: #7c8774; font-size: 10px; line-height: 1.6; }
+.encyclopedia-panel dl { margin: 12px 0; }
+.encyclopedia-panel dt { color: #798169; margin-top: 12px; font-size: 11px; }
+.encyclopedia-panel dd { margin: 3px 0 0; overflow-wrap: anywhere; }
+.encyclopedia-muted { color: var(--muted); font-size: 11px; }
+.encyclopedia-neutral { min-height: 110px; display: grid; place-content: center; text-align: center; border: 1px dashed #c7ceb4; border-radius: 10px; background: #e9eddc; color: #849078; }
+.encyclopedia-neutral > span { font-size: 32px; }
+.encyclopedia-art, .encyclopedia-original { overflow: auto; max-width: 100%; background: #e4e9d5; border: 1px solid #d4dbc3; border-radius: 10px; padding: 12px 0; }
+.encyclopedia-art img, .encyclopedia-original img { display: block; max-width: none; image-rendering: pixelated; margin: 0 auto; }
+.encyclopedia-art img { min-height: 64px; max-height: 160px; max-width: 100%; width: auto; object-fit: contain; }
+.encyclopedia-original img { margin: 0 auto; }
+.encyclopedia-slots button { flex: 1 1 65px; }
+.encyclopedia-slots small { display: block; font-size: 10px; }
+.encyclopedia-item { border-top: 1px solid var(--line); margin-top: 16px; padding-top: 8px; }
+@container (min-width: 340px) { .encyclopedia-grid { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+@container (min-width: 520px) { .encyclopedia-grid { grid-template-columns: repeat(4,minmax(0,1fr)); } }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.inventory-icon { image-rendering: pixelated; display: block; flex-shrink: 0; margin: 12px auto; }
+.inventory-icon-failed { display: grid; place-items: center; min-height: 32px; font-size: 24px; }
+.inventory-card strong { color: #9c7136; font-size: 10px; letter-spacing: .08em; }
+.inventory-scope h3 { margin: 8px 0 4px; }
+.inventory-scope p { margin: 4px 0; }
+.inventory-scope { overflow-wrap: anywhere; }
+.inventory-ack { padding-top: 12px; margin-top: 12px; border-top: 1px solid var(--line); color: #738269; font-size: 11px; }
+.settings-scroll { overflow-wrap: anywhere; }
+.settings-scroll > button { display: block; width: 100%; margin: 8px 0; }
+.settings-scroll > h3 { margin: 12px 0; font-family: var(--font-game); }
+.settings-scroll section { border-top: 1px solid var(--line); padding-top: 8px; margin-top: 16px; }
+.settings-options { display: flex; flex-wrap: wrap; gap: 6px; }
+.settings-options button { flex: 1 1 100px; }
+.onboarding-note, .settings-retry-note { position: absolute; z-index: 5; top: 100px; left: 12px; right: 12px; font-size: 11px; line-height: 1.6; background: #f3efdfee; color: var(--ink); padding: 12px; border-radius: 10px; box-shadow: 0 5px 16px #0002; }
+.settings-retry-note { min-height: 44px; border: 1px solid #cfb783; }
+.observation-retry { top: 148px; left: 12px; right: 12px; }
+.pip-unsupported { position: absolute; top: 12px; left: 12px; right: 76px; font-size: 10px; line-height: 1.5; color: #dde5ce; pointer-events: none; }
+.pip-error { position: absolute; top: 194px; left: 12px; right: 12px; z-index: 5; background: #233a2fee; padding: 10px; border-radius: 9px; font-size: 11px; }
+.pip-placeholder { max-width: 384px; padding: 24px; margin: auto; font-size: 14px; }
+.pip-placeholder button { min-width: 44px; min-height: 44px; }
+.account-gate { position: absolute; inset: 12px; padding: 22px; z-index: 20; background: var(--paper); color: var(--ink); overflow: auto; border: 1px solid #d5d8bd; border-radius: 14px; font-size: 13px; line-height: 1.7; }
+.account-gate h2 { font-family: var(--font-game); font-size: 22px; }
+.account-gate button { display: block; width: 100%; min-height: 44px; margin: 12px 0; padding: 10px; border: 1px solid #9cae8f; border-radius: 9px; background: #4b6550; color: #fff9e7; font-size: 12px; }
+.account-gate button:last-child { background: transparent; color: #596e53; }
+.account-notice { position: absolute; bottom: 4px; z-index: 30; background: var(--paper); color: var(--ink); padding: 12px; border-radius: 10px; }
+.first-visit { position: absolute; inset: 0; overflow: auto; border-radius: 14px 14px 0 0; background: #101c24; color: #eee8d0; }
+.first-visit-scene { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; image-rendering: pixelated; opacity: .32; }
+.first-visit-story { position: relative; min-height: 100%; display: flex; flex-direction: column; justify-content: center; padding: 28px; background: linear-gradient(#101c2444,#101c24e8); }
+.first-visit-eyebrow { font-size: 10px; letter-spacing: .2em; color: #cdbb87; }
+.first-visit h1 { font: 22px/1.65 var(--font-game); margin: 20px 0 10px; letter-spacing: -.03em; }
+.first-visit p { font: 15px/1.9 var(--font-game); margin: 6px 0; }
+.first-visit .first-visit-hint { font: 11px/1.9 var(--font-game); color: #b7c5b4; margin: 24px 0 18px; }
+.first-visit button { display: flex; justify-content: space-between; align-items: center; min-height: 44px; border: 1px solid #a8bb8c80; border-radius: 10px; padding: 12px 16px; background: #3b5342; color: #f5efd9; font-size: 12px; }
+.first-visit button:hover { background: #4b6550; }
+@container (max-width: 250px) { .first-visit-story { padding: 14px; } .first-visit h1 { font-size: 16px; margin: 12px 0 6px; } .first-visit p { font-size: 12px; } .first-visit .first-visit-hint { margin: 12px 0; font-size: 10px; } }
+@media (prefers-reduced-motion: reduce) { .runtime-fade { opacity: 1 !important; } .camera-shutter { animation-duration: 1ms; visibility: hidden; } button { transition: none !important; } }
+@container (max-width: 250px) { .encyclopedia-backdrop { padding: 5px; } .encyclopedia-scroll { padding: 8px; } .encyclopedia-header { padding: 6px 8px; } .encyclopedia-header h2 { font-size: 16px; } .encyclopedia-portrait-frame { height: 60px; } .encyclopedia-portrait { width: 54px; height: 54px; } .pip-toggle, .settings-open { padding: 3px 7px; } }
+
+.code-gate { position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; padding: 18px; overflow: auto; background: radial-gradient(ellipse at 50% 25%,#334636 0%,#14231e 48%,#0d1615 100%); color: #e9ecd6; }
+.code-card { width: min(100%, 390px); padding: 32px 26px; border: 1px solid #71816877; border-radius: 24px 8px 24px 8px; background: linear-gradient(145deg,#26392ee8,#13221ee8); box-shadow: 0 20px 80px #0006,inset 0 1px #d8e6b930; }
+.code-eyebrow { color: #b8c99e; font-size: 12px; letter-spacing: .12em; }
+.code-card h1 { margin: 18px 0; font-family: var(--font-game); font-size: 32px; font-weight: 500; letter-spacing: .14em; }
+.code-card p { font-size: 14px; line-height: 1.9; color: #cbd6bd; }
+.code-card form { display: grid; gap: 10px; margin-top: 26px; }
+.code-card label { font-size: 13px; color: #d8e1c7; }
+.code-card input { min-width: 0; width: 100%; padding: 13px 12px; border: 1px solid #788c6c; border-radius: 8px; background: #0b1917; color: #f7f4df; font: inherit; font-size: 15px; }
+.code-card input::placeholder { color: #879981; font-size: 13px; }
+.code-card button { min-height: 44px; margin-top: 4px; padding: 10px; border: 1px solid #9aa583; border-radius: 14px 5px; background: linear-gradient(#6a775b,#404f3e); box-shadow: inset 0 1px #e9e9bf55,0 3px 6px #0004; color: #fffbe8; font: inherit; font-size: 15px; cursor: pointer; }
+.code-card button:disabled { opacity: .5; cursor: default; }
+.code-card :is(input,button):focus-visible { outline: 2px solid #e4cd87; outline-offset: 3px; }
+.code-card small { display: block; margin-top: 22px; color: #a8b59a; font-size: 11px; line-height: 1.8; }
+.code-card .code-error { color: #f2c39d; font-size: 13px; }
+@media(max-width:360px) { .code-card { padding: 24px 18px; } .code-card h1 { font-size: 27px; } }
+
+/* Rarity stays legible through both words and color; NEW has its own marker. */
+[data-rarity="common"] { --rarity: #527b62; --rarity-wash: #eaf3e9; }
+[data-rarity="rare"] { --rarity: #306da5; --rarity-wash: #e5f2ff; }
+[data-rarity="legendary"] { --rarity: #9a650b; --rarity-wash: #fff0c9; }
+[data-rarity="special"] { --rarity: #8151a3; --rarity-wash: #f5e8ff; }
+.encyclopedia-panel .encyclopedia-card[data-rarity] { border: 2px solid var(--rarity); border-top-width: 5px; background: var(--rarity-wash); position: relative; }
+.encyclopedia-panel .encyclopedia-card[data-new="true"] { background: linear-gradient(140deg, #fff9c9, var(--rarity-wash) 70%); box-shadow: 0 0 0 2px #e6ad3b, 0 3px 8px #513c1626; }
+.rarity-badge { display: inline-block; align-self: center; color: var(--rarity, #527b62); border: 1px solid currentColor; border-radius: 6px; padding: 2px 7px; font-size: 11px; font-weight: 800; background: #ffffffb8; }
+.collection-new { display: inline-block; align-self: center; border-radius: 5px; padding: 2px 7px; background: #7b4812; color: #fff7d6; font-size: 10px; font-weight: 900; letter-spacing: .08em; }
+.rarity-filters button[data-rarity] { border-color: var(--rarity); color: var(--rarity); }
+.rarity-filters button[aria-pressed="true"][data-rarity]:not([data-rarity="all"]) { color: #fff; background: var(--rarity); }
+.settings-sound-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 12px 0; }
+.settings-sound-row button { min-width: 80px; }
+
+/* Place labels sit above short season buttons, including narrow corner windows. */
+.photo-place-groups { display: grid; gap: 10px; margin: 12px 0; }
+.photo-place-group h5 { margin: 0 0 5px; font-size: 12px; color: #52664f; }
+.photo-place-group .encyclopedia-slots { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0; }
+.photo-place-group .encyclopedia-slots button { min-width: 0; padding: 8px 4px; }
+
+.inventory-detail-pager, .encyclopedia-detail-pager { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px; margin: 14px 0 10px; }
+.inventory-detail-pager button, .encyclopedia-detail-pager button { min-width: 0; min-height: 36px; padding: 6px 12px; }
+.inventory-detail-pager button:disabled, .encyclopedia-detail-pager button:disabled { opacity: .4; cursor: default; }
+.inventory-detail-position, .encyclopedia-detail-position { min-width: 42px; text-align: center; color: #52664f; font-size: 12px; font-variant-numeric: tabular-nums; }
+.field-guide > .guide-scroll { flex: 1; }
+.field-guide > .collection-detail-pager { flex: none; margin: 0; padding: 8px 12px; padding-bottom: max(8px, env(safe-area-inset-bottom)); border-top: 1px solid #c8bd99; background: #e8e0c7; box-shadow: 0 -3px 8px #493c1810; }
+
+.collection-footer-nav:has(.minigame-open) { grid-template-columns: repeat(3, minmax(0, 100px)); }
+.collection-footer-nav .minigame-open { position: static; width: 100%; min-width: 0; min-height: 30px; padding: 3px 7px; font-size: 12px; }
+.minigame-zone-slot:not(:empty) { margin-top: 16px; padding-bottom: 24px; }
+.minigame-zone { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 22px 28px; border: 1px solid #829581; border-radius: 14px; background: radial-gradient(ellipse at 80% 100%,#245a584d,transparent 70%),#1d302c; color: #f1ebd6; }
+.minigame-zone h2 { margin: 5px 0 8px; font-size: 20px; }
+.minigame-zone p { margin: 0 0 8px; font-size: 12px; line-height: 1.7; }
+.minigame-zone small, .minigame-eyebrow { color: #b3c7ad; font-size: 11px; }
+.minigame-unlock { display: flex; flex-direction: column; gap: 10px; min-width: 230px; font-size: 12px; }
+.minigame-unlock strong { color: #d6ecd4; }
+.minigame-unlock span { font-size: 11px; color: #bec9b6; }
+.minigame-unlock progress { width: 100%; height: 10px; accent-color: #85c6b2; }
+.minigame-panel .minigame-zone { margin: 12px; padding: 18px; flex-direction: column; align-items: stretch; }
+.minigame-panel .minigame-unlock { min-width: 0; }
+
+.minigame-unlock button, .minigame-active > button {
+  padding: 9px 14px; border: 1px solid #85a69a; border-radius: 7px;
+  background: #29453e; color: #fff1d6; font: inherit; cursor: pointer;
+}
+.minigame-unlock button:disabled { opacity: .65; cursor: default; }
+.minigame-active { padding: 12px; background: #192b27; color: #e6eddd; }
+.minigame-panel .minigame-active { overflow-y: auto; min-height: 0; }

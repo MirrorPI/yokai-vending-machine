@@ -1,0 +1,1538 @@
+{
+  "shared-v1:yokai_001:spring:forest": {
+    "portrait": "shared-photos/yokai_001-spring-forest-portrait-ee01a70f4efdc0fb.png",
+    "full": "shared-photos/yokai_001-spring-forest-full-a08e40760db1e25c.png"
+  },
+  "shared-v1:yokai_001:spring:hill": {
+    "portrait": "shared-photos/yokai_001-spring-hill-portrait-f6e75a6a5d0315b1.png",
+    "full": "shared-photos/yokai_001-spring-hill-full-c2bcbb9808c54de6.png"
+  },
+  "shared-v1:yokai_001:summer:forest": {
+    "portrait": "shared-photos/yokai_001-summer-forest-portrait-86bd537f0524f8e9.png",
+    "full": "shared-photos/yokai_001-summer-forest-full-9559651365c3c4ef.png"
+  },
+  "shared-v1:yokai_001:summer:hill": {
+    "portrait": "shared-photos/yokai_001-summer-hill-portrait-ab8177ee02475f36.png",
+    "full": "shared-photos/yokai_001-summer-hill-full-fa5a9f4e90d449f1.png"
+  },
+  "shared-v1:yokai_001:autumn:forest": {
+    "portrait": "shared-photos/yokai_001-autumn-forest-portrait-3d7025b19c5c13f8.png",
+    "full": "shared-photos/yokai_001-autumn-forest-full-e9329e36dcffd934.png"
+  },
+  "shared-v1:yokai_001:autumn:hill": {
+    "portrait": "shared-photos/yokai_001-autumn-hill-portrait-77d59e20b767ddac.png",
+    "full": "shared-photos/yokai_001-autumn-hill-full-c0304bffa3c3242d.png"
+  },
+  "shared-v1:yokai_001:winter:forest": {
+    "portrait": "shared-photos/yokai_001-winter-forest-portrait-08d56d657ba89186.png",
+    "full": "shared-photos/yokai_001-winter-forest-full-2267fb467649ab95.png"
+  },
+  "shared-v1:yokai_001:winter:hill": {
+    "portrait": "shared-photos/yokai_001-winter-hill-portrait-ea9ce8315fbc164a.png",
+    "full": "shared-photos/yokai_001-winter-hill-full-f95a430f06d2a6c7.png"
+  },
+  "shared-v1:yokai_002:spring:forest": {
+    "portrait": "shared-photos/yokai_002-spring-forest-portrait-1b7ad8d9b3838bae.png",
+    "full": "shared-photos/yokai_002-spring-forest-full-b2eb47451ccda013.png"
+  },
+  "shared-v1:yokai_002:spring:hill": {
+    "portrait": "shared-photos/yokai_002-spring-hill-portrait-72fb4ded87aaad0c.png",
+    "full": "shared-photos/yokai_002-spring-hill-full-75983f16a3512573.png"
+  },
+  "shared-v1:yokai_002:summer:forest": {
+    "portrait": "shared-photos/yokai_002-summer-forest-portrait-a44b77c40d88e008.png",
+    "full": "shared-photos/yokai_002-summer-forest-full-b3716c420526bc66.png"
+  },
+  "shared-v1:yokai_002:summer:hill": {
+    "portrait": "shared-photos/yokai_002-summer-hill-portrait-199b987b5fef8a45.png",
+    "full": "shared-photos/yokai_002-summer-hill-full-2cce6c6a4578d972.png"
+  },
+  "shared-v1:yokai_002:autumn:forest": {
+    "portrait": "shared-photos/yokai_002-autumn-forest-portrait-8a0a9bc982114a5c.png",
+    "full": "shared-photos/yokai_002-autumn-forest-full-d4042d755dd77bc4.png"
+  },
+  "shared-v1:yokai_002:autumn:hill": {
+    "portrait": "shared-photos/yokai_002-autumn-hill-portrait-136eeb2ad374059e.png",
+    "full": "shared-photos/yokai_002-autumn-hill-full-c5144784cb7e545c.png"
+  },
+  "shared-v1:yokai_002:winter:forest": {
+    "portrait": "shared-photos/yokai_002-winter-forest-portrait-1731ae05dff1c4a6.png",
+    "full": "shared-photos/yokai_002-winter-forest-full-7422afe3d80887c9.png"
+  },
+  "shared-v1:yokai_002:winter:hill": {
+    "portrait": "shared-photos/yokai_002-winter-hill-portrait-2d73deccb23567a7.png",
+    "full": "shared-photos/yokai_002-winter-hill-full-32de75bd8b66cd50.png"
+  },
+  "shared-v1:yokai_003:spring:forest": {
+    "portrait": "shared-photos/yokai_003-spring-forest-portrait-4f1f76beca0afdc4.png",
+    "full": "shared-photos/yokai_003-spring-forest-full-d0fc7657d4c7a132.png"
+  },
+  "shared-v1:yokai_003:spring:hill": {
+    "portrait": "shared-photos/yokai_003-spring-hill-portrait-755625da668555a3.png",
+    "full": "shared-photos/yokai_003-spring-hill-full-48c05b08158ee115.png"
+  },
+  "shared-v1:yokai_003:summer:forest": {
+    "portrait": "shared-photos/yokai_003-summer-forest-portrait-0254f17133a9f808.png",
+    "full": "shared-photos/yokai_003-summer-forest-full-bf1b29fd90ca2160.png"
+  },
+  "shared-v1:yokai_003:summer:hill": {
+    "portrait": "shared-photos/yokai_003-summer-hill-portrait-5b33c744b9b2cf70.png",
+    "full": "shared-photos/yokai_003-summer-hill-full-769c316906032c1b.png"
+  },
+  "shared-v1:yokai_003:autumn:forest": {
+    "portrait": "shared-photos/yokai_003-autumn-forest-portrait-6a24b5ef8928ccd0.png",
+    "full": "shared-photos/yokai_003-autumn-forest-full-12d01d799057adf2.png"
+  },
+  "shared-v1:yokai_003:autumn:hill": {
+    "portrait": "shared-photos/yokai_003-autumn-hill-portrait-10f5711b293038e0.png",
+    "full": "shared-photos/yokai_003-autumn-hill-full-77ef3d0804c33664.png"
+  },
+  "shared-v1:yokai_003:winter:forest": {
+    "portrait": "shared-photos/yokai_003-winter-forest-portrait-7aa81cc8f39cead8.png",
+    "full": "shared-photos/yokai_003-winter-forest-full-21d2ff8eb422f11c.png"
+  },
+  "shared-v1:yokai_003:winter:hill": {
+    "portrait": "shared-photos/yokai_003-winter-hill-portrait-ba54623ea145e503.png",
+    "full": "shared-photos/yokai_003-winter-hill-full-3ef63f789bd5f8e8.png"
+  },
+  "shared-v1:yokai_004:spring:forest": {
+    "portrait": "shared-photos/yokai_004-spring-forest-portrait-94e1beee109463e0.png",
+    "full": "shared-photos/yokai_004-spring-forest-full-36d6bd5216c08c52.png"
+  },
+  "shared-v1:yokai_004:spring:hill": {
+    "portrait": "shared-photos/yokai_004-spring-hill-portrait-b8065be76f061e10.png",
+    "full": "shared-photos/yokai_004-spring-hill-full-b8993e867d82f462.png"
+  },
+  "shared-v1:yokai_004:summer:forest": {
+    "portrait": "shared-photos/yokai_004-summer-forest-portrait-e882f6006f535ea9.png",
+    "full": "shared-photos/yokai_004-summer-forest-full-fa1089a249d0b8b6.png"
+  },
+  "shared-v1:yokai_004:summer:hill": {
+    "portrait": "shared-photos/yokai_004-summer-hill-portrait-9fabd448448f9e3f.png",
+    "full": "shared-photos/yokai_004-summer-hill-full-997e4a8707142774.png"
+  },
+  "shared-v1:yokai_004:autumn:forest": {
+    "portrait": "shared-photos/yokai_004-autumn-forest-portrait-9c45ae886714db27.png",
+    "full": "shared-photos/yokai_004-autumn-forest-full-fdb5d881217f39b5.png"
+  },
+  "shared-v1:yokai_004:autumn:hill": {
+    "portrait": "shared-photos/yokai_004-autumn-hill-portrait-0c84aed4b52a3747.png",
+    "full": "shared-photos/yokai_004-autumn-hill-full-661e03d22dd10340.png"
+  },
+  "shared-v1:yokai_004:winter:forest": {
+    "portrait": "shared-photos/yokai_004-winter-forest-portrait-e66baacdcec3df7a.png",
+    "full": "shared-photos/yokai_004-winter-forest-full-5557f88cf128c219.png"
+  },
+  "shared-v1:yokai_004:winter:hill": {
+    "portrait": "shared-photos/yokai_004-winter-hill-portrait-75ee97f01cb6f1b7.png",
+    "full": "shared-photos/yokai_004-winter-hill-full-9c8c64d77786ba24.png"
+  },
+  "shared-v1:yokai_005:spring:forest": {
+    "portrait": "shared-photos/yokai_005-spring-forest-portrait-9bd35afbd95d472b.png",
+    "full": "shared-photos/yokai_005-spring-forest-full-4aabd3e8d83c0e6b.png"
+  },
+  "shared-v1:yokai_005:spring:hill": {
+    "portrait": "shared-photos/yokai_005-spring-hill-portrait-4b3d28620dc93f6a.png",
+    "full": "shared-photos/yokai_005-spring-hill-full-3d6359e8817723aa.png"
+  },
+  "shared-v1:yokai_005:summer:forest": {
+    "portrait": "shared-photos/yokai_005-summer-forest-portrait-8ac50eaf20e84b01.png",
+    "full": "shared-photos/yokai_005-summer-forest-full-21af5f3e58aa6a20.png"
+  },
+  "shared-v1:yokai_005:summer:hill": {
+    "portrait": "shared-photos/yokai_005-summer-hill-portrait-1111c79b46f4dff2.png",
+    "full": "shared-photos/yokai_005-summer-hill-full-6a108cc78cad436a.png"
+  },
+  "shared-v1:yokai_005:autumn:forest": {
+    "portrait": "shared-photos/yokai_005-autumn-forest-portrait-e1d8247e61c8b4fa.png",
+    "full": "shared-photos/yokai_005-autumn-forest-full-d3df7a76d036ba82.png"
+  },
+  "shared-v1:yokai_005:autumn:hill": {
+    "portrait": "shared-photos/yokai_005-autumn-hill-portrait-8dc351240a60f7ba.png",
+    "full": "shared-photos/yokai_005-autumn-hill-full-66f30d87ab10915d.png"
+  },
+  "shared-v1:yokai_005:winter:forest": {
+    "portrait": "shared-photos/yokai_005-winter-forest-portrait-0fc364d6a264138f.png",
+    "full": "shared-photos/yokai_005-winter-forest-full-ebd9b035d7dfcb2f.png"
+  },
+  "shared-v1:yokai_005:winter:hill": {
+    "portrait": "shared-photos/yokai_005-winter-hill-portrait-fdfc311d99f9d1d9.png",
+    "full": "shared-photos/yokai_005-winter-hill-full-ca2da184d544b044.png"
+  },
+  "shared-v1:yokai_006:spring:forest": {
+    "portrait": "shared-photos/yokai_006-spring-forest-portrait-ed1d77da95010df6.png",
+    "full": "shared-photos/yokai_006-spring-forest-full-73ef7af8f68b2f9a.png"
+  },
+  "shared-v1:yokai_006:spring:hill": {
+    "portrait": "shared-photos/yokai_006-spring-hill-portrait-12b7a86f75a77acc.png",
+    "full": "shared-photos/yokai_006-spring-hill-full-1d659f110def0f10.png"
+  },
+  "shared-v1:yokai_006:summer:forest": {
+    "portrait": "shared-photos/yokai_006-summer-forest-portrait-bbc99cf3bf192858.png",
+    "full": "shared-photos/yokai_006-summer-forest-full-42e9c7e6520fb996.png"
+  },
+  "shared-v1:yokai_006:summer:hill": {
+    "portrait": "shared-photos/yokai_006-summer-hill-portrait-6b66952c12b9743e.png",
+    "full": "shared-photos/yokai_006-summer-hill-full-398b8695e3f3b583.png"
+  },
+  "shared-v1:yokai_006:autumn:forest": {
+    "portrait": "shared-photos/yokai_006-autumn-forest-portrait-c20b7c289dc8be13.png",
+    "full": "shared-photos/yokai_006-autumn-forest-full-dc4f9f54ad5623fd.png"
+  },
+  "shared-v1:yokai_006:autumn:hill": {
+    "portrait": "shared-photos/yokai_006-autumn-hill-portrait-989266c8492a020b.png",
+    "full": "shared-photos/yokai_006-autumn-hill-full-d711681f9b1c1d8a.png"
+  },
+  "shared-v1:yokai_006:winter:forest": {
+    "portrait": "shared-photos/yokai_006-winter-forest-portrait-1823a9e614d596fe.png",
+    "full": "shared-photos/yokai_006-winter-forest-full-077fd77ee56e06cd.png"
+  },
+  "shared-v1:yokai_006:winter:hill": {
+    "portrait": "shared-photos/yokai_006-winter-hill-portrait-b65ad07fb127e013.png",
+    "full": "shared-photos/yokai_006-winter-hill-full-a09b9d8aad5f6e40.png"
+  },
+  "shared-v1:yokai_007:spring:forest": {
+    "portrait": "shared-photos/yokai_007-spring-forest-portrait-8b545751add72f80.png",
+    "full": "shared-photos/yokai_007-spring-forest-full-053398babee092b6.png"
+  },
+  "shared-v1:yokai_007:spring:hill": {
+    "portrait": "shared-photos/yokai_007-spring-hill-portrait-bf23d81f3a6804fd.png",
+    "full": "shared-photos/yokai_007-spring-hill-full-d6daa712ce3febed.png"
+  },
+  "shared-v1:yokai_007:summer:forest": {
+    "portrait": "shared-photos/yokai_007-summer-forest-portrait-a176150e6bd037e5.png",
+    "full": "shared-photos/yokai_007-summer-forest-full-aace270ab8c8bdab.png"
+  },
+  "shared-v1:yokai_007:summer:hill": {
+    "portrait": "shared-photos/yokai_007-summer-hill-portrait-e96075032fd34fa4.png",
+    "full": "shared-photos/yokai_007-summer-hill-full-737da96e49c93480.png"
+  },
+  "shared-v1:yokai_007:autumn:forest": {
+    "portrait": "shared-photos/yokai_007-autumn-forest-portrait-760be3672e019fd1.png",
+    "full": "shared-photos/yokai_007-autumn-forest-full-b5f363c5b11bda7d.png"
+  },
+  "shared-v1:yokai_007:autumn:hill": {
+    "portrait": "shared-photos/yokai_007-autumn-hill-portrait-3eb142b7d5ab0ab7.png",
+    "full": "shared-photos/yokai_007-autumn-hill-full-59d8f076187249cc.png"
+  },
+  "shared-v1:yokai_007:winter:forest": {
+    "portrait": "shared-photos/yokai_007-winter-forest-portrait-dbcac90d5ebe8cc4.png",
+    "full": "shared-photos/yokai_007-winter-forest-full-1476bedb9e72dee1.png"
+  },
+  "shared-v1:yokai_007:winter:hill": {
+    "portrait": "shared-photos/yokai_007-winter-hill-portrait-8ca3156e317197d8.png",
+    "full": "shared-photos/yokai_007-winter-hill-full-d436d0551eedf1bd.png"
+  },
+  "shared-v1:yokai_008:spring:forest": {
+    "portrait": "shared-photos/yokai_008-spring-forest-portrait-56c958074e1ffa60.png",
+    "full": "shared-photos/yokai_008-spring-forest-full-770a190dfe6dee24.png"
+  },
+  "shared-v1:yokai_008:spring:hill": {
+    "portrait": "shared-photos/yokai_008-spring-hill-portrait-1e42515013b0077d.png",
+    "full": "shared-photos/yokai_008-spring-hill-full-d3fb903827bfa2f3.png"
+  },
+  "shared-v1:yokai_008:summer:forest": {
+    "portrait": "shared-photos/yokai_008-summer-forest-portrait-08fae4f615d0db06.png",
+    "full": "shared-photos/yokai_008-summer-forest-full-90954887d911da19.png"
+  },
+  "shared-v1:yokai_008:summer:hill": {
+    "portrait": "shared-photos/yokai_008-summer-hill-portrait-df75ed9a7aaa1c6c.png",
+    "full": "shared-photos/yokai_008-summer-hill-full-a6c08774fa77416e.png"
+  },
+  "shared-v1:yokai_008:autumn:forest": {
+    "portrait": "shared-photos/yokai_008-autumn-forest-portrait-7c0c8935b3983f26.png",
+    "full": "shared-photos/yokai_008-autumn-forest-full-e8db6f55b2b3cf33.png"
+  },
+  "shared-v1:yokai_008:autumn:hill": {
+    "portrait": "shared-photos/yokai_008-autumn-hill-portrait-d2811f4236aa0e22.png",
+    "full": "shared-photos/yokai_008-autumn-hill-full-c46fb60ea91cc692.png"
+  },
+  "shared-v1:yokai_008:winter:forest": {
+    "portrait": "shared-photos/yokai_008-winter-forest-portrait-dc1e707eeccc6cd7.png",
+    "full": "shared-photos/yokai_008-winter-forest-full-1298bf36005579bc.png"
+  },
+  "shared-v1:yokai_008:winter:hill": {
+    "portrait": "shared-photos/yokai_008-winter-hill-portrait-544d277500edff64.png",
+    "full": "shared-photos/yokai_008-winter-hill-full-de5153e6012107c5.png"
+  },
+  "shared-v1:yokai_009:spring:forest": {
+    "portrait": "shared-photos/yokai_009-spring-forest-portrait-dfd3efcf4c2b3b98.png",
+    "full": "shared-photos/yokai_009-spring-forest-full-8f6962083c4b044b.png"
+  },
+  "shared-v1:yokai_009:spring:hill": {
+    "portrait": "shared-photos/yokai_009-spring-hill-portrait-fa5c18720ea3701d.png",
+    "full": "shared-photos/yokai_009-spring-hill-full-19f188f5e5f9d055.png"
+  },
+  "shared-v1:yokai_009:summer:forest": {
+    "portrait": "shared-photos/yokai_009-summer-forest-portrait-dd452dbfee443afa.png",
+    "full": "shared-photos/yokai_009-summer-forest-full-4f18cb28805b5e39.png"
+  },
+  "shared-v1:yokai_009:summer:hill": {
+    "portrait": "shared-photos/yokai_009-summer-hill-portrait-e763703b49d1c4a6.png",
+    "full": "shared-photos/yokai_009-summer-hill-full-f47f4d20a3303e57.png"
+  },
+  "shared-v1:yokai_009:autumn:forest": {
+    "portrait": "shared-photos/yokai_009-autumn-forest-portrait-3fcbeff0ea80d32e.png",
+    "full": "shared-photos/yokai_009-autumn-forest-full-56b5ed7716fdbe2b.png"
+  },
+  "shared-v1:yokai_009:autumn:hill": {
+    "portrait": "shared-photos/yokai_009-autumn-hill-portrait-35239dc67b07f285.png",
+    "full": "shared-photos/yokai_009-autumn-hill-full-56afcfea28340b81.png"
+  },
+  "shared-v1:yokai_009:winter:forest": {
+    "portrait": "shared-photos/yokai_009-winter-forest-portrait-fceb79a8e50d0a67.png",
+    "full": "shared-photos/yokai_009-winter-forest-full-94d8d57d43a4b0c1.png"
+  },
+  "shared-v1:yokai_009:winter:hill": {
+    "portrait": "shared-photos/yokai_009-winter-hill-portrait-99939eb8b5b46fbd.png",
+    "full": "shared-photos/yokai_009-winter-hill-full-410d17f5ee1e0869.png"
+  },
+  "shared-v1:yokai_010:spring:forest": {
+    "portrait": "shared-photos/yokai_010-spring-forest-portrait-faf7ebdd2c30cdcd.png",
+    "full": "shared-photos/yokai_010-spring-forest-full-63a0fb776dfb6de3.png"
+  },
+  "shared-v1:yokai_010:spring:hill": {
+    "portrait": "shared-photos/yokai_010-spring-hill-portrait-76d41a663d4c61ab.png",
+    "full": "shared-photos/yokai_010-spring-hill-full-2271f684348733cd.png"
+  },
+  "shared-v1:yokai_010:summer:forest": {
+    "portrait": "shared-photos/yokai_010-summer-forest-portrait-95b5fca264fae624.png",
+    "full": "shared-photos/yokai_010-summer-forest-full-3cd5c339b386da39.png"
+  },
+  "shared-v1:yokai_010:summer:hill": {
+    "portrait": "shared-photos/yokai_010-summer-hill-portrait-1c94c0efe156ee27.png",
+    "full": "shared-photos/yokai_010-summer-hill-full-a3f60c444c17dba0.png"
+  },
+  "shared-v1:yokai_010:autumn:forest": {
+    "portrait": "shared-photos/yokai_010-autumn-forest-portrait-785d95504a9592bf.png",
+    "full": "shared-photos/yokai_010-autumn-forest-full-e0152b37e91c010c.png"
+  },
+  "shared-v1:yokai_010:autumn:hill": {
+    "portrait": "shared-photos/yokai_010-autumn-hill-portrait-826782468f0ae5a1.png",
+    "full": "shared-photos/yokai_010-autumn-hill-full-e8cc438a20bdeb3c.png"
+  },
+  "shared-v1:yokai_010:winter:forest": {
+    "portrait": "shared-photos/yokai_010-winter-forest-portrait-17aaa6bcb8ed1943.png",
+    "full": "shared-photos/yokai_010-winter-forest-full-c55740339d34ac3b.png"
+  },
+  "shared-v1:yokai_010:winter:hill": {
+    "portrait": "shared-photos/yokai_010-winter-hill-portrait-03dfb23631668b05.png",
+    "full": "shared-photos/yokai_010-winter-hill-full-99e6a8a843ae1504.png"
+  },
+  "shared-v1:yokai_011:spring:forest": {
+    "portrait": "shared-photos/yokai_011-spring-forest-portrait-b1e78ea094ae3d1f.png",
+    "full": "shared-photos/yokai_011-spring-forest-full-8225b8958ed1d45f.png"
+  },
+  "shared-v1:yokai_011:spring:hill": {
+    "portrait": "shared-photos/yokai_011-spring-hill-portrait-c7895b29772463eb.png",
+    "full": "shared-photos/yokai_011-spring-hill-full-86bec9455c176f45.png"
+  },
+  "shared-v1:yokai_011:summer:forest": {
+    "portrait": "shared-photos/yokai_011-summer-forest-portrait-3aa321f1f7d81987.png",
+    "full": "shared-photos/yokai_011-summer-forest-full-777d9296c21139d3.png"
+  },
+  "shared-v1:yokai_011:summer:hill": {
+    "portrait": "shared-photos/yokai_011-summer-hill-portrait-ebed58f2454d8edc.png",
+    "full": "shared-photos/yokai_011-summer-hill-full-eea66710388d0b43.png"
+  },
+  "shared-v1:yokai_011:autumn:forest": {
+    "portrait": "shared-photos/yokai_011-autumn-forest-portrait-51579077c044ca26.png",
+    "full": "shared-photos/yokai_011-autumn-forest-full-a71bd13c2f4f0f47.png"
+  },
+  "shared-v1:yokai_011:autumn:hill": {
+    "portrait": "shared-photos/yokai_011-autumn-hill-portrait-d3b7a74287512cf7.png",
+    "full": "shared-photos/yokai_011-autumn-hill-full-f4e1bef5eed6969b.png"
+  },
+  "shared-v1:yokai_011:winter:forest": {
+    "portrait": "shared-photos/yokai_011-winter-forest-portrait-2816e98d57de4b05.png",
+    "full": "shared-photos/yokai_011-winter-forest-full-81f1659fa218e914.png"
+  },
+  "shared-v1:yokai_011:winter:hill": {
+    "portrait": "shared-photos/yokai_011-winter-hill-portrait-874676344a349009.png",
+    "full": "shared-photos/yokai_011-winter-hill-full-76cd313ca024d4e6.png"
+  },
+  "shared-v1:yokai_012:spring:forest": {
+    "portrait": "shared-photos/yokai_012-spring-forest-portrait-8a2ff3bd16778078.png",
+    "full": "shared-photos/yokai_012-spring-forest-full-4e6ce8149d6a0d4c.png"
+  },
+  "shared-v1:yokai_012:spring:hill": {
+    "portrait": "shared-photos/yokai_012-spring-hill-portrait-059b8f8a9e580eb4.png",
+    "full": "shared-photos/yokai_012-spring-hill-full-db2eac04c541caed.png"
+  },
+  "shared-v1:yokai_012:summer:forest": {
+    "portrait": "shared-photos/yokai_012-summer-forest-portrait-5ba9ca7b1476a2af.png",
+    "full": "shared-photos/yokai_012-summer-forest-full-ff59a7ed839c1c3d.png"
+  },
+  "shared-v1:yokai_012:summer:hill": {
+    "portrait": "shared-photos/yokai_012-summer-hill-portrait-c3fdbd8129e9d7e8.png",
+    "full": "shared-photos/yokai_012-summer-hill-full-229ff7de1955d96b.png"
+  },
+  "shared-v1:yokai_012:autumn:forest": {
+    "portrait": "shared-photos/yokai_012-autumn-forest-portrait-fccee9fb7a146fc5.png",
+    "full": "shared-photos/yokai_012-autumn-forest-full-2bde2e5b627760f3.png"
+  },
+  "shared-v1:yokai_012:autumn:hill": {
+    "portrait": "shared-photos/yokai_012-autumn-hill-portrait-ce1e12697ffc3fdf.png",
+    "full": "shared-photos/yokai_012-autumn-hill-full-70814c8859b28aa2.png"
+  },
+  "shared-v1:yokai_012:winter:forest": {
+    "portrait": "shared-photos/yokai_012-winter-forest-portrait-0d9ffe8edbe5a97e.png",
+    "full": "shared-photos/yokai_012-winter-forest-full-170fc9a3a7e95d82.png"
+  },
+  "shared-v1:yokai_012:winter:hill": {
+    "portrait": "shared-photos/yokai_012-winter-hill-portrait-d6fa8a8b630cb757.png",
+    "full": "shared-photos/yokai_012-winter-hill-full-8e472daaef9cca3c.png"
+  },
+  "shared-v1:yokai_013:spring:forest": {
+    "portrait": "shared-photos/yokai_013-spring-forest-portrait-9f03691d2800261f.png",
+    "full": "shared-photos/yokai_013-spring-forest-full-3d224f10e135bd87.png"
+  },
+  "shared-v1:yokai_013:spring:hill": {
+    "portrait": "shared-photos/yokai_013-spring-hill-portrait-b6d691d548627eb8.png",
+    "full": "shared-photos/yokai_013-spring-hill-full-09ca2950f4756816.png"
+  },
+  "shared-v1:yokai_013:summer:forest": {
+    "portrait": "shared-photos/yokai_013-summer-forest-portrait-bb7282e408ce940b.png",
+    "full": "shared-photos/yokai_013-summer-forest-full-9876f763b43e10b4.png"
+  },
+  "shared-v1:yokai_013:summer:hill": {
+    "portrait": "shared-photos/yokai_013-summer-hill-portrait-06335fc7efb3175c.png",
+    "full": "shared-photos/yokai_013-summer-hill-full-deed2078570c288a.png"
+  },
+  "shared-v1:yokai_013:autumn:forest": {
+    "portrait": "shared-photos/yokai_013-autumn-forest-portrait-448b3ae0feec6bf7.png",
+    "full": "shared-photos/yokai_013-autumn-forest-full-799bfc037589b634.png"
+  },
+  "shared-v1:yokai_013:autumn:hill": {
+    "portrait": "shared-photos/yokai_013-autumn-hill-portrait-b018d9b598f561c0.png",
+    "full": "shared-photos/yokai_013-autumn-hill-full-da7c513eeac864ee.png"
+  },
+  "shared-v1:yokai_013:winter:forest": {
+    "portrait": "shared-photos/yokai_013-winter-forest-portrait-43ae8347708bf958.png",
+    "full": "shared-photos/yokai_013-winter-forest-full-8a562fa45be3eccc.png"
+  },
+  "shared-v1:yokai_013:winter:hill": {
+    "portrait": "shared-photos/yokai_013-winter-hill-portrait-ed88712057f81802.png",
+    "full": "shared-photos/yokai_013-winter-hill-full-83303553a1c0f787.png"
+  },
+  "shared-v1:yokai_014:spring:forest": {
+    "portrait": "shared-photos/yokai_014-spring-forest-portrait-1ab32107390ad902.png",
+    "full": "shared-photos/yokai_014-spring-forest-full-e1ea10c6631cfac7.png"
+  },
+  "shared-v1:yokai_014:spring:hill": {
+    "portrait": "shared-photos/yokai_014-spring-hill-portrait-28826ea9dc74a4e8.png",
+    "full": "shared-photos/yokai_014-spring-hill-full-ce3ede64e781532d.png"
+  },
+  "shared-v1:yokai_014:summer:forest": {
+    "portrait": "shared-photos/yokai_014-summer-forest-portrait-2d09f8b7aef11e74.png",
+    "full": "shared-photos/yokai_014-summer-forest-full-166c0048cd679245.png"
+  },
+  "shared-v1:yokai_014:summer:hill": {
+    "portrait": "shared-photos/yokai_014-summer-hill-portrait-bb66a29ec8ef0ae6.png",
+    "full": "shared-photos/yokai_014-summer-hill-full-c4b53457a32b202b.png"
+  },
+  "shared-v1:yokai_014:autumn:forest": {
+    "portrait": "shared-photos/yokai_014-autumn-forest-portrait-903d56c4fe64512a.png",
+    "full": "shared-photos/yokai_014-autumn-forest-full-9c4d4130cf568727.png"
+  },
+  "shared-v1:yokai_014:autumn:hill": {
+    "portrait": "shared-photos/yokai_014-autumn-hill-portrait-9237ba93ee202c5a.png",
+    "full": "shared-photos/yokai_014-autumn-hill-full-ca032e10724231cf.png"
+  },
+  "shared-v1:yokai_014:winter:forest": {
+    "portrait": "shared-photos/yokai_014-winter-forest-portrait-ae23612bc65db5dc.png",
+    "full": "shared-photos/yokai_014-winter-forest-full-ea8aca214e33eab7.png"
+  },
+  "shared-v1:yokai_014:winter:hill": {
+    "portrait": "shared-photos/yokai_014-winter-hill-portrait-12516425a1cd2f5e.png",
+    "full": "shared-photos/yokai_014-winter-hill-full-e5a18ff266a61428.png"
+  },
+  "shared-v1:yokai_015:spring:forest": {
+    "portrait": "shared-photos/yokai_015-spring-forest-portrait-cf2f090ebd4d9905.png",
+    "full": "shared-photos/yokai_015-spring-forest-full-c7a11d54f4d89d05.png"
+  },
+  "shared-v1:yokai_015:spring:hill": {
+    "portrait": "shared-photos/yokai_015-spring-hill-portrait-dda498449ec94e6e.png",
+    "full": "shared-photos/yokai_015-spring-hill-full-b882cb1b406c17ea.png"
+  },
+  "shared-v1:yokai_015:summer:forest": {
+    "portrait": "shared-photos/yokai_015-summer-forest-portrait-9cd27bc0669b0f28.png",
+    "full": "shared-photos/yokai_015-summer-forest-full-335307bdc36630dd.png"
+  },
+  "shared-v1:yokai_015:summer:hill": {
+    "portrait": "shared-photos/yokai_015-summer-hill-portrait-d56cbc04da3700a0.png",
+    "full": "shared-photos/yokai_015-summer-hill-full-6db07c32640213b5.png"
+  },
+  "shared-v1:yokai_015:autumn:forest": {
+    "portrait": "shared-photos/yokai_015-autumn-forest-portrait-099c43bd7655bd11.png",
+    "full": "shared-photos/yokai_015-autumn-forest-full-c220785faea41e3a.png"
+  },
+  "shared-v1:yokai_015:autumn:hill": {
+    "portrait": "shared-photos/yokai_015-autumn-hill-portrait-921630fca9b07030.png",
+    "full": "shared-photos/yokai_015-autumn-hill-full-d7628bddf0f81cf7.png"
+  },
+  "shared-v1:yokai_015:winter:forest": {
+    "portrait": "shared-photos/yokai_015-winter-forest-portrait-18d6ebbb0342d921.png",
+    "full": "shared-photos/yokai_015-winter-forest-full-49b1fc1a4252dc0d.png"
+  },
+  "shared-v1:yokai_015:winter:hill": {
+    "portrait": "shared-photos/yokai_015-winter-hill-portrait-bcaecc8465e2f19a.png",
+    "full": "shared-photos/yokai_015-winter-hill-full-8ac49f4282f3fc27.png"
+  },
+  "shared-v1:yokai_016:spring:forest": {
+    "portrait": "shared-photos/yokai_016-spring-forest-portrait-d766490ddf567908.png",
+    "full": "shared-photos/yokai_016-spring-forest-full-53e4e12cd64c55e7.png"
+  },
+  "shared-v1:yokai_016:spring:hill": {
+    "portrait": "shared-photos/yokai_016-spring-hill-portrait-57869343f114db1c.png",
+    "full": "shared-photos/yokai_016-spring-hill-full-3b98e74ab000ba72.png"
+  },
+  "shared-v1:yokai_016:summer:forest": {
+    "portrait": "shared-photos/yokai_016-summer-forest-portrait-2caac856826be17b.png",
+    "full": "shared-photos/yokai_016-summer-forest-full-f9b7a6da3eef7de3.png"
+  },
+  "shared-v1:yokai_016:summer:hill": {
+    "portrait": "shared-photos/yokai_016-summer-hill-portrait-f3afd9cb8742a8c6.png",
+    "full": "shared-photos/yokai_016-summer-hill-full-682b64d658b204e8.png"
+  },
+  "shared-v1:yokai_016:autumn:forest": {
+    "portrait": "shared-photos/yokai_016-autumn-forest-portrait-9682afc4c637091d.png",
+    "full": "shared-photos/yokai_016-autumn-forest-full-8534418bac815f00.png"
+  },
+  "shared-v1:yokai_016:autumn:hill": {
+    "portrait": "shared-photos/yokai_016-autumn-hill-portrait-09d386c779726641.png",
+    "full": "shared-photos/yokai_016-autumn-hill-full-8d94e7990764122a.png"
+  },
+  "shared-v1:yokai_016:winter:forest": {
+    "portrait": "shared-photos/yokai_016-winter-forest-portrait-51cfb7d81151e266.png",
+    "full": "shared-photos/yokai_016-winter-forest-full-84591a66f05508f6.png"
+  },
+  "shared-v1:yokai_016:winter:hill": {
+    "portrait": "shared-photos/yokai_016-winter-hill-portrait-6a7a603664ca1ab9.png",
+    "full": "shared-photos/yokai_016-winter-hill-full-095c9a789a916914.png"
+  },
+  "shared-v1:yokai_017:spring:forest": {
+    "portrait": "shared-photos/yokai_017-spring-forest-portrait-f0fdbe5baf3d2b2a.png",
+    "full": "shared-photos/yokai_017-spring-forest-full-736f87867cd4f2d2.png"
+  },
+  "shared-v1:yokai_017:spring:hill": {
+    "portrait": "shared-photos/yokai_017-spring-hill-portrait-944972530cd18db6.png",
+    "full": "shared-photos/yokai_017-spring-hill-full-f7df3ef32db37a82.png"
+  },
+  "shared-v1:yokai_017:summer:forest": {
+    "portrait": "shared-photos/yokai_017-summer-forest-portrait-751cabfe8ccd008a.png",
+    "full": "shared-photos/yokai_017-summer-forest-full-f6ef8de638d3240d.png"
+  },
+  "shared-v1:yokai_017:summer:hill": {
+    "portrait": "shared-photos/yokai_017-summer-hill-portrait-d3933053c7364473.png",
+    "full": "shared-photos/yokai_017-summer-hill-full-156f548e3bf7ca89.png"
+  },
+  "shared-v1:yokai_017:autumn:forest": {
+    "portrait": "shared-photos/yokai_017-autumn-forest-portrait-5fd5acea9434d1d4.png",
+    "full": "shared-photos/yokai_017-autumn-forest-full-70f792f56e2a2fb1.png"
+  },
+  "shared-v1:yokai_017:autumn:hill": {
+    "portrait": "shared-photos/yokai_017-autumn-hill-portrait-cbce150e59c443f4.png",
+    "full": "shared-photos/yokai_017-autumn-hill-full-953d7f0d28c5b31f.png"
+  },
+  "shared-v1:yokai_017:winter:forest": {
+    "portrait": "shared-photos/yokai_017-winter-forest-portrait-7dfb3b221ec63ebb.png",
+    "full": "shared-photos/yokai_017-winter-forest-full-0330523cb7aa1414.png"
+  },
+  "shared-v1:yokai_017:winter:hill": {
+    "portrait": "shared-photos/yokai_017-winter-hill-portrait-6f0fc325c05d509a.png",
+    "full": "shared-photos/yokai_017-winter-hill-full-28ba0d9ac8364598.png"
+  },
+  "shared-v1:yokai_018:spring:forest": {
+    "portrait": "shared-photos/yokai_018-spring-forest-portrait-fb8812f9552784ea.png",
+    "full": "shared-photos/yokai_018-spring-forest-full-3f5e896913508709.png"
+  },
+  "shared-v1:yokai_018:spring:hill": {
+    "portrait": "shared-photos/yokai_018-spring-hill-portrait-63538b36a9431845.png",
+    "full": "shared-photos/yokai_018-spring-hill-full-44af74ec62f38f17.png"
+  },
+  "shared-v1:yokai_018:summer:forest": {
+    "portrait": "shared-photos/yokai_018-summer-forest-portrait-48633eece462f448.png",
+    "full": "shared-photos/yokai_018-summer-forest-full-c31938b8c1a5db6f.png"
+  },
+  "shared-v1:yokai_018:summer:hill": {
+    "portrait": "shared-photos/yokai_018-summer-hill-portrait-1363780ceafd21f2.png",
+    "full": "shared-photos/yokai_018-summer-hill-full-0ba1879cd2dc1418.png"
+  },
+  "shared-v1:yokai_018:autumn:forest": {
+    "portrait": "shared-photos/yokai_018-autumn-forest-portrait-37bc7f0b60fb4398.png",
+    "full": "shared-photos/yokai_018-autumn-forest-full-74c7f3f84a45f89b.png"
+  },
+  "shared-v1:yokai_018:autumn:hill": {
+    "portrait": "shared-photos/yokai_018-autumn-hill-portrait-6f5fc4f618198ebd.png",
+    "full": "shared-photos/yokai_018-autumn-hill-full-1ec80ad27ecb8675.png"
+  },
+  "shared-v1:yokai_018:winter:forest": {
+    "portrait": "shared-photos/yokai_018-winter-forest-portrait-73a7c1691a66211a.png",
+    "full": "shared-photos/yokai_018-winter-forest-full-3e0e2ceba7fb34b9.png"
+  },
+  "shared-v1:yokai_018:winter:hill": {
+    "portrait": "shared-photos/yokai_018-winter-hill-portrait-7943be7a72a1d3db.png",
+    "full": "shared-photos/yokai_018-winter-hill-full-24e11a29166e0115.png"
+  },
+  "shared-v1:yokai_019:spring:forest": {
+    "portrait": "shared-photos/yokai_019-spring-forest-portrait-8d4aeb17f54e2d49.png",
+    "full": "shared-photos/yokai_019-spring-forest-full-5f40a710bee49917.png"
+  },
+  "shared-v1:yokai_019:spring:hill": {
+    "portrait": "shared-photos/yokai_019-spring-hill-portrait-c421c76df33d4da9.png",
+    "full": "shared-photos/yokai_019-spring-hill-full-b5d98c83ef0a845e.png"
+  },
+  "shared-v1:yokai_019:summer:forest": {
+    "portrait": "shared-photos/yokai_019-summer-forest-portrait-aa0381b6621455f3.png",
+    "full": "shared-photos/yokai_019-summer-forest-full-802f0b1c7643743b.png"
+  },
+  "shared-v1:yokai_019:summer:hill": {
+    "portrait": "shared-photos/yokai_019-summer-hill-portrait-ce5ef98fdea5b29e.png",
+    "full": "shared-photos/yokai_019-summer-hill-full-14b72684ced7fee6.png"
+  },
+  "shared-v1:yokai_019:autumn:forest": {
+    "portrait": "shared-photos/yokai_019-autumn-forest-portrait-9fd2b3d213f10c6f.png",
+    "full": "shared-photos/yokai_019-autumn-forest-full-5ffda1c343593b2e.png"
+  },
+  "shared-v1:yokai_019:autumn:hill": {
+    "portrait": "shared-photos/yokai_019-autumn-hill-portrait-8737f4931adb9cb9.png",
+    "full": "shared-photos/yokai_019-autumn-hill-full-04e4eabb535c238b.png"
+  },
+  "shared-v1:yokai_019:winter:forest": {
+    "portrait": "shared-photos/yokai_019-winter-forest-portrait-d88b4e5033cd6b75.png",
+    "full": "shared-photos/yokai_019-winter-forest-full-89b35a3215cf791b.png"
+  },
+  "shared-v1:yokai_019:winter:hill": {
+    "portrait": "shared-photos/yokai_019-winter-hill-portrait-1b7c750079212f06.png",
+    "full": "shared-photos/yokai_019-winter-hill-full-82398c6fede612d8.png"
+  },
+  "shared-v1:yokai_020:spring:forest": {
+    "portrait": "shared-photos/yokai_020-spring-forest-portrait-b0addf10399fc464.png",
+    "full": "shared-photos/yokai_020-spring-forest-full-c155c4cfdf5fdf17.png"
+  },
+  "shared-v1:yokai_020:spring:hill": {
+    "portrait": "shared-photos/yokai_020-spring-hill-portrait-6eb902a0c0e75b70.png",
+    "full": "shared-photos/yokai_020-spring-hill-full-87d2a3610490d7f2.png"
+  },
+  "shared-v1:yokai_020:summer:forest": {
+    "portrait": "shared-photos/yokai_020-summer-forest-portrait-ac089d36cd652f9a.png",
+    "full": "shared-photos/yokai_020-summer-forest-full-d81fd127496ef9ce.png"
+  },
+  "shared-v1:yokai_020:summer:hill": {
+    "portrait": "shared-photos/yokai_020-summer-hill-portrait-56ca92023e925bdb.png",
+    "full": "shared-photos/yokai_020-summer-hill-full-f440920e80eded3b.png"
+  },
+  "shared-v1:yokai_020:autumn:forest": {
+    "portrait": "shared-photos/yokai_020-autumn-forest-portrait-70bd8b2a0553c048.png",
+    "full": "shared-photos/yokai_020-autumn-forest-full-a227366b0eb60d29.png"
+  },
+  "shared-v1:yokai_020:autumn:hill": {
+    "portrait": "shared-photos/yokai_020-autumn-hill-portrait-9d059b4415161134.png",
+    "full": "shared-photos/yokai_020-autumn-hill-full-73633b6d1b3ffdc8.png"
+  },
+  "shared-v1:yokai_020:winter:forest": {
+    "portrait": "shared-photos/yokai_020-winter-forest-portrait-71f2e502e8dd757b.png",
+    "full": "shared-photos/yokai_020-winter-forest-full-7e474ebc9e53879e.png"
+  },
+  "shared-v1:yokai_020:winter:hill": {
+    "portrait": "shared-photos/yokai_020-winter-hill-portrait-771d9e4e97068487.png",
+    "full": "shared-photos/yokai_020-winter-hill-full-460378f89e396174.png"
+  },
+  "shared-v1:yokai_021:spring:forest": {
+    "portrait": "shared-photos/yokai_021-spring-forest-portrait-e6e5b2eebccc1f64.png",
+    "full": "shared-photos/yokai_021-spring-forest-full-60b6e9da66a985d2.png"
+  },
+  "shared-v1:yokai_021:spring:hill": {
+    "portrait": "shared-photos/yokai_021-spring-hill-portrait-70edd003333c091c.png",
+    "full": "shared-photos/yokai_021-spring-hill-full-036476e465103d3f.png"
+  },
+  "shared-v1:yokai_022:spring:forest": {
+    "portrait": "shared-photos/yokai_022-spring-forest-portrait-d3a780fc521cd5c2.png",
+    "full": "shared-photos/yokai_022-spring-forest-full-19c09b5cddb3107f.png"
+  },
+  "shared-v1:yokai_022:spring:hill": {
+    "portrait": "shared-photos/yokai_022-spring-hill-portrait-7cc961e5401805f5.png",
+    "full": "shared-photos/yokai_022-spring-hill-full-9554c73abb973a3a.png"
+  },
+  "shared-v1:yokai_023:spring:forest": {
+    "portrait": "shared-photos/yokai_023-spring-forest-portrait-ded12923683d475b.png",
+    "full": "shared-photos/yokai_023-spring-forest-full-fd95b57c7612fc12.png"
+  },
+  "shared-v1:yokai_023:spring:hill": {
+    "portrait": "shared-photos/yokai_023-spring-hill-portrait-2ca4db49e4cfefee.png",
+    "full": "shared-photos/yokai_023-spring-hill-full-6f6ae4c0edfde8ef.png"
+  },
+  "shared-v1:yokai_024:spring:forest": {
+    "portrait": "shared-photos/yokai_024-spring-forest-portrait-f25c1afafef67c58.png",
+    "full": "shared-photos/yokai_024-spring-forest-full-43b179aca32d3328.png"
+  },
+  "shared-v1:yokai_024:spring:hill": {
+    "portrait": "shared-photos/yokai_024-spring-hill-portrait-4204581bfe5c597a.png",
+    "full": "shared-photos/yokai_024-spring-hill-full-1b00bcb972464e1e.png"
+  },
+  "shared-v1:yokai_025:spring:forest": {
+    "portrait": "shared-photos/yokai_025-spring-forest-portrait-2438d17e0dba0b51.png",
+    "full": "shared-photos/yokai_025-spring-forest-full-42a34b13cf6993b9.png"
+  },
+  "shared-v1:yokai_025:spring:hill": {
+    "portrait": "shared-photos/yokai_025-spring-hill-portrait-714e368ecb943507.png",
+    "full": "shared-photos/yokai_025-spring-hill-full-03da8d01b194c030.png"
+  },
+  "shared-v1:yokai_026:spring:forest": {
+    "portrait": "shared-photos/yokai_026-spring-forest-portrait-559f3a3c1e7fbf9a.png",
+    "full": "shared-photos/yokai_026-spring-forest-full-732daee935977d46.png"
+  },
+  "shared-v1:yokai_026:spring:hill": {
+    "portrait": "shared-photos/yokai_026-spring-hill-portrait-18addd0c2dfe84ad.png",
+    "full": "shared-photos/yokai_026-spring-hill-full-544be08d2af3cfa9.png"
+  },
+  "shared-v1:yokai_027:spring:forest": {
+    "portrait": "shared-photos/yokai_027-spring-forest-portrait-62f9efce670f941b.png",
+    "full": "shared-photos/yokai_027-spring-forest-full-943887e9afb18e69.png"
+  },
+  "shared-v1:yokai_027:spring:hill": {
+    "portrait": "shared-photos/yokai_027-spring-hill-portrait-8fdfdf7047b95200.png",
+    "full": "shared-photos/yokai_027-spring-hill-full-8c0e3d3198ee608a.png"
+  },
+  "shared-v1:yokai_028:spring:forest": {
+    "portrait": "shared-photos/yokai_028-spring-forest-portrait-e44ed13d9ab5f068.png",
+    "full": "shared-photos/yokai_028-spring-forest-full-5e5e838feaaf824c.png"
+  },
+  "shared-v1:yokai_028:spring:hill": {
+    "portrait": "shared-photos/yokai_028-spring-hill-portrait-91fc5f91eeb99c37.png",
+    "full": "shared-photos/yokai_028-spring-hill-full-f6464fa3d4a3c4c2.png"
+  },
+  "shared-v1:yokai_029:spring:forest": {
+    "portrait": "shared-photos/yokai_029-spring-forest-portrait-cb3ce5e2b4ad9009.png",
+    "full": "shared-photos/yokai_029-spring-forest-full-0a39789ead773f71.png"
+  },
+  "shared-v1:yokai_029:spring:hill": {
+    "portrait": "shared-photos/yokai_029-spring-hill-portrait-c38d566116aa975a.png",
+    "full": "shared-photos/yokai_029-spring-hill-full-c5f274155badd9ab.png"
+  },
+  "shared-v1:yokai_030:spring:forest": {
+    "portrait": "shared-photos/yokai_030-spring-forest-portrait-7c507102e7b9d732.png",
+    "full": "shared-photos/yokai_030-spring-forest-full-6959dc21abce64fd.png"
+  },
+  "shared-v1:yokai_030:spring:hill": {
+    "portrait": "shared-photos/yokai_030-spring-hill-portrait-723c58b69b735b29.png",
+    "full": "shared-photos/yokai_030-spring-hill-full-67f8e205ea14aae9.png"
+  },
+  "shared-v1:yokai_031:summer:forest": {
+    "portrait": "shared-photos/yokai_031-summer-forest-portrait-b99f34eb96560e33.png",
+    "full": "shared-photos/yokai_031-summer-forest-full-443992f35d118922.png"
+  },
+  "shared-v1:yokai_031:summer:hill": {
+    "portrait": "shared-photos/yokai_031-summer-hill-portrait-65488e8e28c97237.png",
+    "full": "shared-photos/yokai_031-summer-hill-full-8ecc4c54e5206342.png"
+  },
+  "shared-v1:yokai_032:summer:forest": {
+    "portrait": "shared-photos/yokai_032-summer-forest-portrait-ef1bfc73f47e1d85.png",
+    "full": "shared-photos/yokai_032-summer-forest-full-19a318c35c30c1fe.png"
+  },
+  "shared-v1:yokai_032:summer:hill": {
+    "portrait": "shared-photos/yokai_032-summer-hill-portrait-b6dcf18e3cb87c21.png",
+    "full": "shared-photos/yokai_032-summer-hill-full-3644c8cc4cced399.png"
+  },
+  "shared-v1:yokai_033:summer:forest": {
+    "portrait": "shared-photos/yokai_033-summer-forest-portrait-19a017161fe1cb78.png",
+    "full": "shared-photos/yokai_033-summer-forest-full-1f921ff3223fb066.png"
+  },
+  "shared-v1:yokai_033:summer:hill": {
+    "portrait": "shared-photos/yokai_033-summer-hill-portrait-10b9e365b54119c4.png",
+    "full": "shared-photos/yokai_033-summer-hill-full-7afa1be5cdb9af89.png"
+  },
+  "shared-v1:yokai_034:summer:forest": {
+    "portrait": "shared-photos/yokai_034-summer-forest-portrait-4c4b71367b7f5463.png",
+    "full": "shared-photos/yokai_034-summer-forest-full-6899862aed39313b.png"
+  },
+  "shared-v1:yokai_034:summer:hill": {
+    "portrait": "shared-photos/yokai_034-summer-hill-portrait-47140fac286b1d11.png",
+    "full": "shared-photos/yokai_034-summer-hill-full-b349e7dc5952e2d7.png"
+  },
+  "shared-v1:yokai_035:summer:forest": {
+    "portrait": "shared-photos/yokai_035-summer-forest-portrait-56a50a03ebcec023.png",
+    "full": "shared-photos/yokai_035-summer-forest-full-d57032b1aeb61f4d.png"
+  },
+  "shared-v1:yokai_035:summer:hill": {
+    "portrait": "shared-photos/yokai_035-summer-hill-portrait-5c6bcffa305693d4.png",
+    "full": "shared-photos/yokai_035-summer-hill-full-6bfcfcfa3fe999e5.png"
+  },
+  "shared-v1:yokai_036:summer:forest": {
+    "portrait": "shared-photos/yokai_036-summer-forest-portrait-a1de86c2d2584ab7.png",
+    "full": "shared-photos/yokai_036-summer-forest-full-de371480f94b0097.png"
+  },
+  "shared-v1:yokai_036:summer:hill": {
+    "portrait": "shared-photos/yokai_036-summer-hill-portrait-33bcb4656c235ec8.png",
+    "full": "shared-photos/yokai_036-summer-hill-full-b8ecef2889331493.png"
+  },
+  "shared-v1:yokai_037:summer:forest": {
+    "portrait": "shared-photos/yokai_037-summer-forest-portrait-c894fda835df0ab5.png",
+    "full": "shared-photos/yokai_037-summer-forest-full-2e37abcf1d969d64.png"
+  },
+  "shared-v1:yokai_037:summer:hill": {
+    "portrait": "shared-photos/yokai_037-summer-hill-portrait-e2d7b2c1b6e541e8.png",
+    "full": "shared-photos/yokai_037-summer-hill-full-58eda51dfdeb3843.png"
+  },
+  "shared-v1:yokai_038:summer:forest": {
+    "portrait": "shared-photos/yokai_038-summer-forest-portrait-63685876900421c4.png",
+    "full": "shared-photos/yokai_038-summer-forest-full-dff1fedbb41a9685.png"
+  },
+  "shared-v1:yokai_038:summer:hill": {
+    "portrait": "shared-photos/yokai_038-summer-hill-portrait-b71fe854d6485342.png",
+    "full": "shared-photos/yokai_038-summer-hill-full-f46372e86fc3c8cd.png"
+  },
+  "shared-v1:yokai_039:summer:forest": {
+    "portrait": "shared-photos/yokai_039-summer-forest-portrait-20d0ce1efd28ddeb.png",
+    "full": "shared-photos/yokai_039-summer-forest-full-059a9838407b86f9.png"
+  },
+  "shared-v1:yokai_039:summer:hill": {
+    "portrait": "shared-photos/yokai_039-summer-hill-portrait-5ca88fbfbb5f7304.png",
+    "full": "shared-photos/yokai_039-summer-hill-full-6bf5515d37ee8ae5.png"
+  },
+  "shared-v1:yokai_040:summer:forest": {
+    "portrait": "shared-photos/yokai_040-summer-forest-portrait-b8dab56f39a37764.png",
+    "full": "shared-photos/yokai_040-summer-forest-full-41e632cf713e8b2d.png"
+  },
+  "shared-v1:yokai_040:summer:hill": {
+    "portrait": "shared-photos/yokai_040-summer-hill-portrait-38f003dfd67d0f18.png",
+    "full": "shared-photos/yokai_040-summer-hill-full-20895c530daa48eb.png"
+  },
+  "shared-v1:yokai_041:autumn:forest": {
+    "portrait": "shared-photos/yokai_041-autumn-forest-portrait-aec486d289c70f05.png",
+    "full": "shared-photos/yokai_041-autumn-forest-full-8a2320625921387b.png"
+  },
+  "shared-v1:yokai_041:autumn:hill": {
+    "portrait": "shared-photos/yokai_041-autumn-hill-portrait-3a2f5b193a49fa88.png",
+    "full": "shared-photos/yokai_041-autumn-hill-full-f6b3376ce61959c9.png"
+  },
+  "shared-v1:yokai_042:autumn:forest": {
+    "portrait": "shared-photos/yokai_042-autumn-forest-portrait-b58ff14a9f6a406b.png",
+    "full": "shared-photos/yokai_042-autumn-forest-full-8e4633c5d7c8451f.png"
+  },
+  "shared-v1:yokai_042:autumn:hill": {
+    "portrait": "shared-photos/yokai_042-autumn-hill-portrait-dfff495f05e8fa67.png",
+    "full": "shared-photos/yokai_042-autumn-hill-full-88f30ada313edb21.png"
+  },
+  "shared-v1:yokai_043:autumn:forest": {
+    "portrait": "shared-photos/yokai_043-autumn-forest-portrait-54e154ebaecbb8f1.png",
+    "full": "shared-photos/yokai_043-autumn-forest-full-f21de5a341d55b71.png"
+  },
+  "shared-v1:yokai_043:autumn:hill": {
+    "portrait": "shared-photos/yokai_043-autumn-hill-portrait-2200c6fe16b18ce8.png",
+    "full": "shared-photos/yokai_043-autumn-hill-full-b3ec4e48012aa56b.png"
+  },
+  "shared-v1:yokai_044:autumn:forest": {
+    "portrait": "shared-photos/yokai_044-autumn-forest-portrait-2d2837b06cc6606d.png",
+    "full": "shared-photos/yokai_044-autumn-forest-full-583d0192d6db085c.png"
+  },
+  "shared-v1:yokai_044:autumn:hill": {
+    "portrait": "shared-photos/yokai_044-autumn-hill-portrait-53db250bb8b3628e.png",
+    "full": "shared-photos/yokai_044-autumn-hill-full-5979ae4cf0977abb.png"
+  },
+  "shared-v1:yokai_045:autumn:forest": {
+    "portrait": "shared-photos/yokai_045-autumn-forest-portrait-50f4cf128fd3e46e.png",
+    "full": "shared-photos/yokai_045-autumn-forest-full-e30b3ff56ed41771.png"
+  },
+  "shared-v1:yokai_045:autumn:hill": {
+    "portrait": "shared-photos/yokai_045-autumn-hill-portrait-1c344759168c4c3f.png",
+    "full": "shared-photos/yokai_045-autumn-hill-full-58a4c50b702dbec7.png"
+  },
+  "shared-v1:yokai_046:autumn:forest": {
+    "portrait": "shared-photos/yokai_046-autumn-forest-portrait-a1896106b1b6980b.png",
+    "full": "shared-photos/yokai_046-autumn-forest-full-bbf05a0cde3d2bab.png"
+  },
+  "shared-v1:yokai_046:autumn:hill": {
+    "portrait": "shared-photos/yokai_046-autumn-hill-portrait-0c5811775173594d.png",
+    "full": "shared-photos/yokai_046-autumn-hill-full-b4d1ff46db53841f.png"
+  },
+  "shared-v1:yokai_047:autumn:forest": {
+    "portrait": "shared-photos/yokai_047-autumn-forest-portrait-13b131d0f208a889.png",
+    "full": "shared-photos/yokai_047-autumn-forest-full-07ca5ea04bf2e22a.png"
+  },
+  "shared-v1:yokai_047:autumn:hill": {
+    "portrait": "shared-photos/yokai_047-autumn-hill-portrait-d13fbe12f9ce1a36.png",
+    "full": "shared-photos/yokai_047-autumn-hill-full-440aed47b649e58b.png"
+  },
+  "shared-v1:yokai_048:autumn:forest": {
+    "portrait": "shared-photos/yokai_048-autumn-forest-portrait-2e926b6de79ccbc2.png",
+    "full": "shared-photos/yokai_048-autumn-forest-full-adaad1a09e3e2211.png"
+  },
+  "shared-v1:yokai_048:autumn:hill": {
+    "portrait": "shared-photos/yokai_048-autumn-hill-portrait-2f68f9dc547517ca.png",
+    "full": "shared-photos/yokai_048-autumn-hill-full-c45d3d4f8083bf9c.png"
+  },
+  "shared-v1:yokai_049:autumn:forest": {
+    "portrait": "shared-photos/yokai_049-autumn-forest-portrait-881aff985801b7e6.png",
+    "full": "shared-photos/yokai_049-autumn-forest-full-042c8f185e6352b1.png"
+  },
+  "shared-v1:yokai_049:autumn:hill": {
+    "portrait": "shared-photos/yokai_049-autumn-hill-portrait-bb07e7a455a3a98c.png",
+    "full": "shared-photos/yokai_049-autumn-hill-full-5a204f840466e81c.png"
+  },
+  "shared-v1:yokai_050:autumn:forest": {
+    "portrait": "shared-photos/yokai_050-autumn-forest-portrait-8a28958025ea2b75.png",
+    "full": "shared-photos/yokai_050-autumn-forest-full-87f4f8f6ab96c18c.png"
+  },
+  "shared-v1:yokai_050:autumn:hill": {
+    "portrait": "shared-photos/yokai_050-autumn-hill-portrait-678a5561a1eea96a.png",
+    "full": "shared-photos/yokai_050-autumn-hill-full-4afeb9e3e56d53cb.png"
+  },
+  "shared-v1:yokai_051:winter:forest": {
+    "portrait": "shared-photos/yokai_051-winter-forest-portrait-04cd70d2b8d599f2.png",
+    "full": "shared-photos/yokai_051-winter-forest-full-6dd4b43cb3553c8a.png"
+  },
+  "shared-v1:yokai_051:winter:hill": {
+    "portrait": "shared-photos/yokai_051-winter-hill-portrait-02d5edae2f5f06d7.png",
+    "full": "shared-photos/yokai_051-winter-hill-full-425cf0a5fb69db79.png"
+  },
+  "shared-v1:yokai_052:winter:forest": {
+    "portrait": "shared-photos/yokai_052-winter-forest-portrait-4d5dcec9e66a5418.png",
+    "full": "shared-photos/yokai_052-winter-forest-full-ac458917c847b675.png"
+  },
+  "shared-v1:yokai_052:winter:hill": {
+    "portrait": "shared-photos/yokai_052-winter-hill-portrait-4e3cc919f3266daf.png",
+    "full": "shared-photos/yokai_052-winter-hill-full-2419d98421d2a2fb.png"
+  },
+  "shared-v1:yokai_053:winter:forest": {
+    "portrait": "shared-photos/yokai_053-winter-forest-portrait-c0f40ed13538f762.png",
+    "full": "shared-photos/yokai_053-winter-forest-full-c828890fe837ef60.png"
+  },
+  "shared-v1:yokai_053:winter:hill": {
+    "portrait": "shared-photos/yokai_053-winter-hill-portrait-d94b08232a35676a.png",
+    "full": "shared-photos/yokai_053-winter-hill-full-6b576323784e638e.png"
+  },
+  "shared-v1:yokai_054:winter:forest": {
+    "portrait": "shared-photos/yokai_054-winter-forest-portrait-d978e3eac7093006.png",
+    "full": "shared-photos/yokai_054-winter-forest-full-592ad9b1be0551dc.png"
+  },
+  "shared-v1:yokai_054:winter:hill": {
+    "portrait": "shared-photos/yokai_054-winter-hill-portrait-1f22665f608fbbfd.png",
+    "full": "shared-photos/yokai_054-winter-hill-full-24dedd73784841aa.png"
+  },
+  "shared-v1:yokai_055:winter:forest": {
+    "portrait": "shared-photos/yokai_055-winter-forest-portrait-a0d2f8892d15f7c9.png",
+    "full": "shared-photos/yokai_055-winter-forest-full-5751af94b041bf1b.png"
+  },
+  "shared-v1:yokai_055:winter:hill": {
+    "portrait": "shared-photos/yokai_055-winter-hill-portrait-7bf9aa9c71f86534.png",
+    "full": "shared-photos/yokai_055-winter-hill-full-1be3a537670cfeb3.png"
+  },
+  "shared-v1:yokai_056:winter:forest": {
+    "portrait": "shared-photos/yokai_056-winter-forest-portrait-dbe4c58f781077db.png",
+    "full": "shared-photos/yokai_056-winter-forest-full-9da0133bfa634d5f.png"
+  },
+  "shared-v1:yokai_056:winter:hill": {
+    "portrait": "shared-photos/yokai_056-winter-hill-portrait-475a6246ea598606.png",
+    "full": "shared-photos/yokai_056-winter-hill-full-55772a8225341114.png"
+  },
+  "shared-v1:yokai_057:winter:forest": {
+    "portrait": "shared-photos/yokai_057-winter-forest-portrait-55e64fbe9794e105.png",
+    "full": "shared-photos/yokai_057-winter-forest-full-d502c387f1bb69e8.png"
+  },
+  "shared-v1:yokai_057:winter:hill": {
+    "portrait": "shared-photos/yokai_057-winter-hill-portrait-8b137530c226e49f.png",
+    "full": "shared-photos/yokai_057-winter-hill-full-83b3a5eacd8a6156.png"
+  },
+  "shared-v1:yokai_058:winter:forest": {
+    "portrait": "shared-photos/yokai_058-winter-forest-portrait-48033281564da8ac.png",
+    "full": "shared-photos/yokai_058-winter-forest-full-734304f40ff4af86.png"
+  },
+  "shared-v1:yokai_058:winter:hill": {
+    "portrait": "shared-photos/yokai_058-winter-hill-portrait-0ede9f6be537d75b.png",
+    "full": "shared-photos/yokai_058-winter-hill-full-e94535160ca2c234.png"
+  },
+  "shared-v1:yokai_059:winter:forest": {
+    "portrait": "shared-photos/yokai_059-winter-forest-portrait-0f771bf39138404b.png",
+    "full": "shared-photos/yokai_059-winter-forest-full-39571eb52919e8fb.png"
+  },
+  "shared-v1:yokai_059:winter:hill": {
+    "portrait": "shared-photos/yokai_059-winter-hill-portrait-92d888754306a866.png",
+    "full": "shared-photos/yokai_059-winter-hill-full-86e41b1d7a0302e0.png"
+  },
+  "shared-v1:yokai_060:winter:forest": {
+    "portrait": "shared-photos/yokai_060-winter-forest-portrait-ba30a2a07fcb7842.png",
+    "full": "shared-photos/yokai_060-winter-forest-full-857ea9cff4d8552e.png"
+  },
+  "shared-v1:yokai_060:winter:hill": {
+    "portrait": "shared-photos/yokai_060-winter-hill-portrait-de12ed6a597490a2.png",
+    "full": "shared-photos/yokai_060-winter-hill-full-51d21fc31fb19ffb.png"
+  },
+  "shared-v1:yokai_061:spring:forest": {
+    "portrait": "shared-photos/yokai_061-spring-forest-portrait-0f5264944ba09f46.png",
+    "full": "shared-photos/yokai_061-spring-forest-full-a841ac6551ef8745.png"
+  },
+  "shared-v1:yokai_061:spring:hill": {
+    "portrait": "shared-photos/yokai_061-spring-hill-portrait-5b1436496e6606fd.png",
+    "full": "shared-photos/yokai_061-spring-hill-full-31cf807b18cc2607.png"
+  },
+  "shared-v1:yokai_061:summer:forest": {
+    "portrait": "shared-photos/yokai_061-summer-forest-portrait-7cae01f6c9c6f69e.png",
+    "full": "shared-photos/yokai_061-summer-forest-full-80c2d26d3131d7c4.png"
+  },
+  "shared-v1:yokai_061:summer:hill": {
+    "portrait": "shared-photos/yokai_061-summer-hill-portrait-90b8d9ccb42669b8.png",
+    "full": "shared-photos/yokai_061-summer-hill-full-65d28981558f4262.png"
+  },
+  "shared-v1:yokai_061:autumn:forest": {
+    "portrait": "shared-photos/yokai_061-autumn-forest-portrait-3a2603dcdcd33d92.png",
+    "full": "shared-photos/yokai_061-autumn-forest-full-95ea29a7aca17ccb.png"
+  },
+  "shared-v1:yokai_061:autumn:hill": {
+    "portrait": "shared-photos/yokai_061-autumn-hill-portrait-44ce99f4d6d5f50c.png",
+    "full": "shared-photos/yokai_061-autumn-hill-full-1df329641d635396.png"
+  },
+  "shared-v1:yokai_061:winter:forest": {
+    "portrait": "shared-photos/yokai_061-winter-forest-portrait-f132d20f17fa7c8b.png",
+    "full": "shared-photos/yokai_061-winter-forest-full-0448c69009c75fdf.png"
+  },
+  "shared-v1:yokai_061:winter:hill": {
+    "portrait": "shared-photos/yokai_061-winter-hill-portrait-94eaf6733b2370c7.png",
+    "full": "shared-photos/yokai_061-winter-hill-full-12ec5fd296993e6d.png"
+  },
+  "shared-v1:yokai_062:spring:forest": {
+    "portrait": "shared-photos/yokai_062-spring-forest-portrait-a3b8cfc9dbdf7375.png",
+    "full": "shared-photos/yokai_062-spring-forest-full-439022a91ed29fdc.png"
+  },
+  "shared-v1:yokai_062:spring:hill": {
+    "portrait": "shared-photos/yokai_062-spring-hill-portrait-b9e59c0996da3039.png",
+    "full": "shared-photos/yokai_062-spring-hill-full-ace3263459f60e75.png"
+  },
+  "shared-v1:yokai_062:summer:forest": {
+    "portrait": "shared-photos/yokai_062-summer-forest-portrait-9d2a1a20ac0aa7d7.png",
+    "full": "shared-photos/yokai_062-summer-forest-full-73728976cca93b40.png"
+  },
+  "shared-v1:yokai_062:summer:hill": {
+    "portrait": "shared-photos/yokai_062-summer-hill-portrait-204312c1531b3b31.png",
+    "full": "shared-photos/yokai_062-summer-hill-full-1c3060c621498a0a.png"
+  },
+  "shared-v1:yokai_062:autumn:forest": {
+    "portrait": "shared-photos/yokai_062-autumn-forest-portrait-a4420c5d1f5e81ad.png",
+    "full": "shared-photos/yokai_062-autumn-forest-full-0ae20431d4e471cf.png"
+  },
+  "shared-v1:yokai_062:autumn:hill": {
+    "portrait": "shared-photos/yokai_062-autumn-hill-portrait-5bcb15c0ccb2e9fd.png",
+    "full": "shared-photos/yokai_062-autumn-hill-full-0d487ba6bacd6862.png"
+  },
+  "shared-v1:yokai_062:winter:forest": {
+    "portrait": "shared-photos/yokai_062-winter-forest-portrait-530d07a657c6f2f5.png",
+    "full": "shared-photos/yokai_062-winter-forest-full-98496283ac5ec0dd.png"
+  },
+  "shared-v1:yokai_062:winter:hill": {
+    "portrait": "shared-photos/yokai_062-winter-hill-portrait-9d459801a41529a1.png",
+    "full": "shared-photos/yokai_062-winter-hill-full-8be9ad68a5099dd5.png"
+  },
+  "shared-v1:yokai_063:spring:forest": {
+    "portrait": "shared-photos/yokai_063-spring-forest-portrait-50b92b2e00db5de0.png",
+    "full": "shared-photos/yokai_063-spring-forest-full-088e69d10beba840.png"
+  },
+  "shared-v1:yokai_063:spring:hill": {
+    "portrait": "shared-photos/yokai_063-spring-hill-portrait-a544c69e71f00856.png",
+    "full": "shared-photos/yokai_063-spring-hill-full-70b6db064dcecae9.png"
+  },
+  "shared-v1:yokai_063:summer:forest": {
+    "portrait": "shared-photos/yokai_063-summer-forest-portrait-c098a923e70fc04b.png",
+    "full": "shared-photos/yokai_063-summer-forest-full-9a493af5f753bb0c.png"
+  },
+  "shared-v1:yokai_063:summer:hill": {
+    "portrait": "shared-photos/yokai_063-summer-hill-portrait-388514f92303757b.png",
+    "full": "shared-photos/yokai_063-summer-hill-full-48c0b17bb6d8726f.png"
+  },
+  "shared-v1:yokai_063:autumn:forest": {
+    "portrait": "shared-photos/yokai_063-autumn-forest-portrait-ed99b5d09fffcc4c.png",
+    "full": "shared-photos/yokai_063-autumn-forest-full-6de3f7978a17ae17.png"
+  },
+  "shared-v1:yokai_063:autumn:hill": {
+    "portrait": "shared-photos/yokai_063-autumn-hill-portrait-37a15707f77e5111.png",
+    "full": "shared-photos/yokai_063-autumn-hill-full-e7350fcc6fd1d14b.png"
+  },
+  "shared-v1:yokai_063:winter:forest": {
+    "portrait": "shared-photos/yokai_063-winter-forest-portrait-614061c2bd029d02.png",
+    "full": "shared-photos/yokai_063-winter-forest-full-ce4bda1eca77ff39.png"
+  },
+  "shared-v1:yokai_063:winter:hill": {
+    "portrait": "shared-photos/yokai_063-winter-hill-portrait-583d93fb58dcde0d.png",
+    "full": "shared-photos/yokai_063-winter-hill-full-cc5169c2a8013448.png"
+  },
+  "shared-v1:yokai_064:spring:forest": {
+    "portrait": "shared-photos/yokai_064-spring-forest-portrait-70d44b9f79266cbc.png",
+    "full": "shared-photos/yokai_064-spring-forest-full-4388156fecec4404.png"
+  },
+  "shared-v1:yokai_064:spring:hill": {
+    "portrait": "shared-photos/yokai_064-spring-hill-portrait-13319f4c2746f305.png",
+    "full": "shared-photos/yokai_064-spring-hill-full-d4e849d55f4ec1e1.png"
+  },
+  "shared-v1:yokai_064:summer:forest": {
+    "portrait": "shared-photos/yokai_064-summer-forest-portrait-85bf1ba774e6d908.png",
+    "full": "shared-photos/yokai_064-summer-forest-full-fb278168b7f64f58.png"
+  },
+  "shared-v1:yokai_064:summer:hill": {
+    "portrait": "shared-photos/yokai_064-summer-hill-portrait-04de2b2f3dfcbb32.png",
+    "full": "shared-photos/yokai_064-summer-hill-full-0c36414e29e75f9e.png"
+  },
+  "shared-v1:yokai_064:autumn:forest": {
+    "portrait": "shared-photos/yokai_064-autumn-forest-portrait-b2013381e46dd9e7.png",
+    "full": "shared-photos/yokai_064-autumn-forest-full-68def5458788c1bc.png"
+  },
+  "shared-v1:yokai_064:autumn:hill": {
+    "portrait": "shared-photos/yokai_064-autumn-hill-portrait-61ce89d0379960dc.png",
+    "full": "shared-photos/yokai_064-autumn-hill-full-8f7aa5e543771167.png"
+  },
+  "shared-v1:yokai_064:winter:forest": {
+    "portrait": "shared-photos/yokai_064-winter-forest-portrait-10e1ab7c437287c5.png",
+    "full": "shared-photos/yokai_064-winter-forest-full-308694914e1c7258.png"
+  },
+  "shared-v1:yokai_064:winter:hill": {
+    "portrait": "shared-photos/yokai_064-winter-hill-portrait-3daa28b4a39add1d.png",
+    "full": "shared-photos/yokai_064-winter-hill-full-0222682730de4fa8.png"
+  },
+  "shared-v1:yokai_065:spring:forest": {
+    "portrait": "shared-photos/yokai_065-spring-forest-portrait-854289f53f6ed457.png",
+    "full": "shared-photos/yokai_065-spring-forest-full-ebf9715f7880477e.png"
+  },
+  "shared-v1:yokai_065:spring:hill": {
+    "portrait": "shared-photos/yokai_065-spring-hill-portrait-90fe117d64a133c7.png",
+    "full": "shared-photos/yokai_065-spring-hill-full-c41abc93ca2ec440.png"
+  },
+  "shared-v1:yokai_065:summer:forest": {
+    "portrait": "shared-photos/yokai_065-summer-forest-portrait-0b1539af241be5ac.png",
+    "full": "shared-photos/yokai_065-summer-forest-full-992da1c95dae68ee.png"
+  },
+  "shared-v1:yokai_065:summer:hill": {
+    "portrait": "shared-photos/yokai_065-summer-hill-portrait-912539d68ba972b0.png",
+    "full": "shared-photos/yokai_065-summer-hill-full-4beeec4a572a9332.png"
+  },
+  "shared-v1:yokai_065:autumn:forest": {
+    "portrait": "shared-photos/yokai_065-autumn-forest-portrait-1f133e2c4f7fc745.png",
+    "full": "shared-photos/yokai_065-autumn-forest-full-6946ad139daf10a9.png"
+  },
+  "shared-v1:yokai_065:autumn:hill": {
+    "portrait": "shared-photos/yokai_065-autumn-hill-portrait-25caeb5931d44f8a.png",
+    "full": "shared-photos/yokai_065-autumn-hill-full-4c09d9af7d99938e.png"
+  },
+  "shared-v1:yokai_065:winter:forest": {
+    "portrait": "shared-photos/yokai_065-winter-forest-portrait-767a6f58f4feace0.png",
+    "full": "shared-photos/yokai_065-winter-forest-full-21781e54cfb46b5a.png"
+  },
+  "shared-v1:yokai_065:winter:hill": {
+    "portrait": "shared-photos/yokai_065-winter-hill-portrait-afd334652603f35d.png",
+    "full": "shared-photos/yokai_065-winter-hill-full-5432ddb466e055b1.png"
+  },
+  "shared-v1:yokai_066:spring:forest": {
+    "portrait": "shared-photos/yokai_066-spring-forest-portrait-fb5f17df3451b0a6.png",
+    "full": "shared-photos/yokai_066-spring-forest-full-4ee3df91dc5b2cb2.png"
+  },
+  "shared-v1:yokai_066:spring:hill": {
+    "portrait": "shared-photos/yokai_066-spring-hill-portrait-cac979ab174e2b82.png",
+    "full": "shared-photos/yokai_066-spring-hill-full-ed9dd887487e118e.png"
+  },
+  "shared-v1:yokai_066:summer:forest": {
+    "portrait": "shared-photos/yokai_066-summer-forest-portrait-0cd0adec67f596c9.png",
+    "full": "shared-photos/yokai_066-summer-forest-full-22db32db96a4613c.png"
+  },
+  "shared-v1:yokai_066:summer:hill": {
+    "portrait": "shared-photos/yokai_066-summer-hill-portrait-138402adaba16d66.png",
+    "full": "shared-photos/yokai_066-summer-hill-full-8cc08a280615e9dd.png"
+  },
+  "shared-v1:yokai_066:autumn:forest": {
+    "portrait": "shared-photos/yokai_066-autumn-forest-portrait-cd690f87eb0666d1.png",
+    "full": "shared-photos/yokai_066-autumn-forest-full-c75f1f2099550016.png"
+  },
+  "shared-v1:yokai_066:autumn:hill": {
+    "portrait": "shared-photos/yokai_066-autumn-hill-portrait-3ca49fdd18ac05da.png",
+    "full": "shared-photos/yokai_066-autumn-hill-full-7d6a9b23579bb25e.png"
+  },
+  "shared-v1:yokai_066:winter:forest": {
+    "portrait": "shared-photos/yokai_066-winter-forest-portrait-181589cd6125237e.png",
+    "full": "shared-photos/yokai_066-winter-forest-full-d91a2277b0152ce9.png"
+  },
+  "shared-v1:yokai_066:winter:hill": {
+    "portrait": "shared-photos/yokai_066-winter-hill-portrait-536caac284d5f3b1.png",
+    "full": "shared-photos/yokai_066-winter-hill-full-9ea13cfb1ce8f130.png"
+  },
+  "shared-v1:yokai_067:spring:forest": {
+    "portrait": "shared-photos/yokai_067-spring-forest-portrait-bd52c2e1bd9fab2b.png",
+    "full": "shared-photos/yokai_067-spring-forest-full-731ea80b4f9bf88a.png"
+  },
+  "shared-v1:yokai_067:spring:hill": {
+    "portrait": "shared-photos/yokai_067-spring-hill-portrait-e74a7d0934fa3c7c.png",
+    "full": "shared-photos/yokai_067-spring-hill-full-0d5bf5d7ad50cf67.png"
+  },
+  "shared-v1:yokai_067:summer:forest": {
+    "portrait": "shared-photos/yokai_067-summer-forest-portrait-6d8405278b8584cf.png",
+    "full": "shared-photos/yokai_067-summer-forest-full-d8ce9eab75d842c8.png"
+  },
+  "shared-v1:yokai_067:summer:hill": {
+    "portrait": "shared-photos/yokai_067-summer-hill-portrait-bec60d6f37c7f6f7.png",
+    "full": "shared-photos/yokai_067-summer-hill-full-c18e9389d8de6007.png"
+  },
+  "shared-v1:yokai_067:autumn:forest": {
+    "portrait": "shared-photos/yokai_067-autumn-forest-portrait-7fa32372670026b2.png",
+    "full": "shared-photos/yokai_067-autumn-forest-full-ee34d2e54239c740.png"
+  },
+  "shared-v1:yokai_067:autumn:hill": {
+    "portrait": "shared-photos/yokai_067-autumn-hill-portrait-0108fb29897ef02b.png",
+    "full": "shared-photos/yokai_067-autumn-hill-full-a338f29665df0fa5.png"
+  },
+  "shared-v1:yokai_067:winter:forest": {
+    "portrait": "shared-photos/yokai_067-winter-forest-portrait-ff0522ded0b3e011.png",
+    "full": "shared-photos/yokai_067-winter-forest-full-16c5848bedcd2077.png"
+  },
+  "shared-v1:yokai_067:winter:hill": {
+    "portrait": "shared-photos/yokai_067-winter-hill-portrait-f2cbc36bb462f8e3.png",
+    "full": "shared-photos/yokai_067-winter-hill-full-5216696dbc5c821f.png"
+  },
+  "shared-v1:yokai_068:spring:forest": {
+    "portrait": "shared-photos/yokai_068-spring-forest-portrait-cfd5090a018cbceb.png",
+    "full": "shared-photos/yokai_068-spring-forest-full-9b8aab4359bb1f55.png"
+  },
+  "shared-v1:yokai_068:spring:hill": {
+    "portrait": "shared-photos/yokai_068-spring-hill-portrait-fdf60efac6df7025.png",
+    "full": "shared-photos/yokai_068-spring-hill-full-d648b0eea9ad4f3f.png"
+  },
+  "shared-v1:yokai_068:summer:forest": {
+    "portrait": "shared-photos/yokai_068-summer-forest-portrait-91510e76b63642b3.png",
+    "full": "shared-photos/yokai_068-summer-forest-full-4357592351c42c0c.png"
+  },
+  "shared-v1:yokai_068:summer:hill": {
+    "portrait": "shared-photos/yokai_068-summer-hill-portrait-4b65b506760cc070.png",
+    "full": "shared-photos/yokai_068-summer-hill-full-06797d3a91a725c5.png"
+  },
+  "shared-v1:yokai_068:autumn:forest": {
+    "portrait": "shared-photos/yokai_068-autumn-forest-portrait-e4c1c68eed1e1f8b.png",
+    "full": "shared-photos/yokai_068-autumn-forest-full-faf712afe88b6cb8.png"
+  },
+  "shared-v1:yokai_068:autumn:hill": {
+    "portrait": "shared-photos/yokai_068-autumn-hill-portrait-3036124bd2167911.png",
+    "full": "shared-photos/yokai_068-autumn-hill-full-a1e31f5f6ea891e2.png"
+  },
+  "shared-v1:yokai_068:winter:forest": {
+    "portrait": "shared-photos/yokai_068-winter-forest-portrait-6a13e877c9bf6666.png",
+    "full": "shared-photos/yokai_068-winter-forest-full-86306a9e3ae9350e.png"
+  },
+  "shared-v1:yokai_068:winter:hill": {
+    "portrait": "shared-photos/yokai_068-winter-hill-portrait-9e91ed753aaa6f90.png",
+    "full": "shared-photos/yokai_068-winter-hill-full-fa0be0c200c77335.png"
+  },
+  "shared-v1:yokai_069:spring:forest": {
+    "portrait": "shared-photos/yokai_069-spring-forest-portrait-fda0d9621105d437.png",
+    "full": "shared-photos/yokai_069-spring-forest-full-33ef2e53aaa20f14.png"
+  },
+  "shared-v1:yokai_069:spring:hill": {
+    "portrait": "shared-photos/yokai_069-spring-hill-portrait-71e4984bdfc98425.png",
+    "full": "shared-photos/yokai_069-spring-hill-full-1fa98c75f1dec698.png"
+  },
+  "shared-v1:yokai_070:spring:forest": {
+    "portrait": "shared-photos/yokai_070-spring-forest-portrait-16c096d947f3bbbe.png",
+    "full": "shared-photos/yokai_070-spring-forest-full-700fe81af2cf94c7.png"
+  },
+  "shared-v1:yokai_070:spring:hill": {
+    "portrait": "shared-photos/yokai_070-spring-hill-portrait-7db05d857e9b2d12.png",
+    "full": "shared-photos/yokai_070-spring-hill-full-9d6dbf3f72b0a4f7.png"
+  },
+  "shared-v1:yokai_071:spring:forest": {
+    "portrait": "shared-photos/yokai_071-spring-forest-portrait-dd1c6fbba866899b.png",
+    "full": "shared-photos/yokai_071-spring-forest-full-6dec24f2ad950c22.png"
+  },
+  "shared-v1:yokai_071:spring:hill": {
+    "portrait": "shared-photos/yokai_071-spring-hill-portrait-28e34e934cccfeb1.png",
+    "full": "shared-photos/yokai_071-spring-hill-full-9fb18cd538f768ce.png"
+  },
+  "shared-v1:yokai_072:spring:forest": {
+    "portrait": "shared-photos/yokai_072-spring-forest-portrait-1040f1711be088c7.png",
+    "full": "shared-photos/yokai_072-spring-forest-full-d180409c5a539e41.png"
+  },
+  "shared-v1:yokai_072:spring:hill": {
+    "portrait": "shared-photos/yokai_072-spring-hill-portrait-766f86689e9f3ce4.png",
+    "full": "shared-photos/yokai_072-spring-hill-full-7c0ae0671f368396.png"
+  },
+  "shared-v1:yokai_073:spring:forest": {
+    "portrait": "shared-photos/yokai_073-spring-forest-portrait-c4279ef757db0abe.png",
+    "full": "shared-photos/yokai_073-spring-forest-full-ed5e0b2eeb4518d1.png"
+  },
+  "shared-v1:yokai_073:spring:hill": {
+    "portrait": "shared-photos/yokai_073-spring-hill-portrait-5ab16a6aa96c36a3.png",
+    "full": "shared-photos/yokai_073-spring-hill-full-0cb9221cb2580a75.png"
+  },
+  "shared-v1:yokai_074:spring:forest": {
+    "portrait": "shared-photos/yokai_074-spring-forest-portrait-dbb3358191b2aeb0.png",
+    "full": "shared-photos/yokai_074-spring-forest-full-054b6cc9b6be9f5f.png"
+  },
+  "shared-v1:yokai_074:spring:hill": {
+    "portrait": "shared-photos/yokai_074-spring-hill-portrait-fb1d272b21a64bf4.png",
+    "full": "shared-photos/yokai_074-spring-hill-full-0f191c7dda68c715.png"
+  },
+  "shared-v1:yokai_075:summer:forest": {
+    "portrait": "shared-photos/yokai_075-summer-forest-portrait-fe639e77cd2f9927.png",
+    "full": "shared-photos/yokai_075-summer-forest-full-4d36fef402566af2.png"
+  },
+  "shared-v1:yokai_075:summer:hill": {
+    "portrait": "shared-photos/yokai_075-summer-hill-portrait-b921a4236cad84a1.png",
+    "full": "shared-photos/yokai_075-summer-hill-full-dbad1443c52dff56.png"
+  },
+  "shared-v1:yokai_076:summer:forest": {
+    "portrait": "shared-photos/yokai_076-summer-forest-portrait-3f9947e51285bd37.png",
+    "full": "shared-photos/yokai_076-summer-forest-full-ef5d1b55b4b50f50.png"
+  },
+  "shared-v1:yokai_076:summer:hill": {
+    "portrait": "shared-photos/yokai_076-summer-hill-portrait-f45bdd30f20a61bc.png",
+    "full": "shared-photos/yokai_076-summer-hill-full-899fed71b3e6f829.png"
+  },
+  "shared-v1:yokai_077:summer:forest": {
+    "portrait": "shared-photos/yokai_077-summer-forest-portrait-627a3c141645f375.png",
+    "full": "shared-photos/yokai_077-summer-forest-full-ae6fac1354f8ceaa.png"
+  },
+  "shared-v1:yokai_077:summer:hill": {
+    "portrait": "shared-photos/yokai_077-summer-hill-portrait-a5fd6a5402fbc22b.png",
+    "full": "shared-photos/yokai_077-summer-hill-full-b601b776e58aac62.png"
+  },
+  "shared-v1:yokai_078:summer:forest": {
+    "portrait": "shared-photos/yokai_078-summer-forest-portrait-047d6c244f9d570d.png",
+    "full": "shared-photos/yokai_078-summer-forest-full-10debc5941d35845.png"
+  },
+  "shared-v1:yokai_078:summer:hill": {
+    "portrait": "shared-photos/yokai_078-summer-hill-portrait-9499a334b10963fe.png",
+    "full": "shared-photos/yokai_078-summer-hill-full-f0258c86221ef200.png"
+  },
+  "shared-v1:yokai_079:summer:forest": {
+    "portrait": "shared-photos/yokai_079-summer-forest-portrait-d094ba5cc72adf95.png",
+    "full": "shared-photos/yokai_079-summer-forest-full-4236a540b4fea1f4.png"
+  },
+  "shared-v1:yokai_079:summer:hill": {
+    "portrait": "shared-photos/yokai_079-summer-hill-portrait-7146b36816707921.png",
+    "full": "shared-photos/yokai_079-summer-hill-full-29035e29abf974bb.png"
+  },
+  "shared-v1:yokai_080:summer:forest": {
+    "portrait": "shared-photos/yokai_080-summer-forest-portrait-8d94ffaae3271e83.png",
+    "full": "shared-photos/yokai_080-summer-forest-full-f7956dbdc2c52432.png"
+  },
+  "shared-v1:yokai_080:summer:hill": {
+    "portrait": "shared-photos/yokai_080-summer-hill-portrait-ba057d7a6725714c.png",
+    "full": "shared-photos/yokai_080-summer-hill-full-f787856284bf3bd3.png"
+  },
+  "shared-v1:yokai_081:autumn:forest": {
+    "portrait": "shared-photos/yokai_081-autumn-forest-portrait-72ee61b306467a77.png",
+    "full": "shared-photos/yokai_081-autumn-forest-full-f3e5e6c6a70c1a3a.png"
+  },
+  "shared-v1:yokai_081:autumn:hill": {
+    "portrait": "shared-photos/yokai_081-autumn-hill-portrait-b4154d93c60d17bd.png",
+    "full": "shared-photos/yokai_081-autumn-hill-full-eb40d36ec3f2dc29.png"
+  },
+  "shared-v1:yokai_082:autumn:forest": {
+    "portrait": "shared-photos/yokai_082-autumn-forest-portrait-570c7f0b72ce195a.png",
+    "full": "shared-photos/yokai_082-autumn-forest-full-442f36c32cb46e96.png"
+  },
+  "shared-v1:yokai_082:autumn:hill": {
+    "portrait": "shared-photos/yokai_082-autumn-hill-portrait-bb24ce0cf6bb83cc.png",
+    "full": "shared-photos/yokai_082-autumn-hill-full-6cb612021234c511.png"
+  },
+  "shared-v1:yokai_083:autumn:forest": {
+    "portrait": "shared-photos/yokai_083-autumn-forest-portrait-9686e6aec8cf9359.png",
+    "full": "shared-photos/yokai_083-autumn-forest-full-803212b5da1bfd0b.png"
+  },
+  "shared-v1:yokai_083:autumn:hill": {
+    "portrait": "shared-photos/yokai_083-autumn-hill-portrait-6671aaaa0406a405.png",
+    "full": "shared-photos/yokai_083-autumn-hill-full-2c68056f2198f6cc.png"
+  },
+  "shared-v1:yokai_084:autumn:forest": {
+    "portrait": "shared-photos/yokai_084-autumn-forest-portrait-7e9b2390f18eb52f.png",
+    "full": "shared-photos/yokai_084-autumn-forest-full-95d88c82cc23226e.png"
+  },
+  "shared-v1:yokai_084:autumn:hill": {
+    "portrait": "shared-photos/yokai_084-autumn-hill-portrait-20bcd578c88f9d64.png",
+    "full": "shared-photos/yokai_084-autumn-hill-full-cd2cba794e6ee936.png"
+  },
+  "shared-v1:yokai_085:autumn:forest": {
+    "portrait": "shared-photos/yokai_085-autumn-forest-portrait-c2f8f3c8f53baf60.png",
+    "full": "shared-photos/yokai_085-autumn-forest-full-14338b05b31f029f.png"
+  },
+  "shared-v1:yokai_085:autumn:hill": {
+    "portrait": "shared-photos/yokai_085-autumn-hill-portrait-1843915a5234aab7.png",
+    "full": "shared-photos/yokai_085-autumn-hill-full-d679802973eb2c43.png"
+  },
+  "shared-v1:yokai_086:autumn:forest": {
+    "portrait": "shared-photos/yokai_086-autumn-forest-portrait-f8cc600cecbd4377.png",
+    "full": "shared-photos/yokai_086-autumn-forest-full-633d74ab0905291a.png"
+  },
+  "shared-v1:yokai_086:autumn:hill": {
+    "portrait": "shared-photos/yokai_086-autumn-hill-portrait-939779e92135b448.png",
+    "full": "shared-photos/yokai_086-autumn-hill-full-fcab510a2815dbca.png"
+  },
+  "shared-v1:yokai_087:winter:forest": {
+    "portrait": "shared-photos/yokai_087-winter-forest-portrait-6559322d389e742b.png",
+    "full": "shared-photos/yokai_087-winter-forest-full-744b3d998bd2824d.png"
+  },
+  "shared-v1:yokai_087:winter:hill": {
+    "portrait": "shared-photos/yokai_087-winter-hill-portrait-ca2426c5c4e1da1a.png",
+    "full": "shared-photos/yokai_087-winter-hill-full-6e613078eeb9043d.png"
+  },
+  "shared-v1:yokai_088:winter:forest": {
+    "portrait": "shared-photos/yokai_088-winter-forest-portrait-c1824811b34749a3.png",
+    "full": "shared-photos/yokai_088-winter-forest-full-6cad1777ecef523b.png"
+  },
+  "shared-v1:yokai_088:winter:hill": {
+    "portrait": "shared-photos/yokai_088-winter-hill-portrait-3163ba153827a505.png",
+    "full": "shared-photos/yokai_088-winter-hill-full-db9ff2c0623f0b96.png"
+  },
+  "shared-v1:yokai_089:winter:forest": {
+    "portrait": "shared-photos/yokai_089-winter-forest-portrait-8d1355f4c8e4707b.png",
+    "full": "shared-photos/yokai_089-winter-forest-full-951439bcd3cb6f5a.png"
+  },
+  "shared-v1:yokai_089:winter:hill": {
+    "portrait": "shared-photos/yokai_089-winter-hill-portrait-1e759701eba22dda.png",
+    "full": "shared-photos/yokai_089-winter-hill-full-f0debc7df89e4e9a.png"
+  },
+  "shared-v1:yokai_090:winter:forest": {
+    "portrait": "shared-photos/yokai_090-winter-forest-portrait-e441dd392a7785cd.png",
+    "full": "shared-photos/yokai_090-winter-forest-full-e9ef152ab915451f.png"
+  },
+  "shared-v1:yokai_090:winter:hill": {
+    "portrait": "shared-photos/yokai_090-winter-hill-portrait-e881342bfaffa33c.png",
+    "full": "shared-photos/yokai_090-winter-hill-full-16a0ffa36a712366.png"
+  },
+  "shared-v1:yokai_091:winter:forest": {
+    "portrait": "shared-photos/yokai_091-winter-forest-portrait-ae3e3328792df3f3.png",
+    "full": "shared-photos/yokai_091-winter-forest-full-2a51c860aa3d1909.png"
+  },
+  "shared-v1:yokai_091:winter:hill": {
+    "portrait": "shared-photos/yokai_091-winter-hill-portrait-30e890b21b721bcf.png",
+    "full": "shared-photos/yokai_091-winter-hill-full-0b316a4a61cdfca7.png"
+  },
+  "shared-v1:yokai_092:winter:forest": {
+    "portrait": "shared-photos/yokai_092-winter-forest-portrait-d1361b13697931c5.png",
+    "full": "shared-photos/yokai_092-winter-forest-full-a8c49afe333fae38.png"
+  },
+  "shared-v1:yokai_092:winter:hill": {
+    "portrait": "shared-photos/yokai_092-winter-hill-portrait-53a86d0a6695d7d1.png",
+    "full": "shared-photos/yokai_092-winter-hill-full-73ae9ed9c2b277a3.png"
+  },
+  "shared-v1:yokai_093:spring:forest": {
+    "portrait": "shared-photos/yokai_093-spring-forest-portrait-3038d33082f484bf.png",
+    "full": "shared-photos/yokai_093-spring-forest-full-11452b2944a2c12f.png"
+  },
+  "shared-v1:yokai_093:spring:hill": {
+    "portrait": "shared-photos/yokai_093-spring-hill-portrait-b480d01954db9f0c.png",
+    "full": "shared-photos/yokai_093-spring-hill-full-d48bdc0d5305205b.png"
+  },
+  "shared-v1:yokai_093:summer:forest": {
+    "portrait": "shared-photos/yokai_093-summer-forest-portrait-f16098d5ca858293.png",
+    "full": "shared-photos/yokai_093-summer-forest-full-fb57a1e8a0f1d5ad.png"
+  },
+  "shared-v1:yokai_093:summer:hill": {
+    "portrait": "shared-photos/yokai_093-summer-hill-portrait-780de72f3a98dc3d.png",
+    "full": "shared-photos/yokai_093-summer-hill-full-2a17e0c0e46ca3c9.png"
+  },
+  "shared-v1:yokai_093:autumn:forest": {
+    "portrait": "shared-photos/yokai_093-autumn-forest-portrait-b0e077dfa79e54a1.png",
+    "full": "shared-photos/yokai_093-autumn-forest-full-aae502cf13d1c5ae.png"
+  },
+  "shared-v1:yokai_093:autumn:hill": {
+    "portrait": "shared-photos/yokai_093-autumn-hill-portrait-63117128215be194.png",
+    "full": "shared-photos/yokai_093-autumn-hill-full-77752dc4e1a4de54.png"
+  },
+  "shared-v1:yokai_093:winter:forest": {
+    "portrait": "shared-photos/yokai_093-winter-forest-portrait-4ed7627f667438c6.png",
+    "full": "shared-photos/yokai_093-winter-forest-full-c00c5791ffdc5848.png"
+  },
+  "shared-v1:yokai_093:winter:hill": {
+    "portrait": "shared-photos/yokai_093-winter-hill-portrait-692eaba8b9356c19.png",
+    "full": "shared-photos/yokai_093-winter-hill-full-74944cfbf9dea036.png"
+  },
+  "shared-v1:yokai_094:spring:forest": {
+    "portrait": "shared-photos/yokai_094-spring-forest-portrait-1934fd58b10b5bdf.png",
+    "full": "shared-photos/yokai_094-spring-forest-full-94a39ffd49a90767.png"
+  },
+  "shared-v1:yokai_094:spring:hill": {
+    "portrait": "shared-photos/yokai_094-spring-hill-portrait-83684702096b717e.png",
+    "full": "shared-photos/yokai_094-spring-hill-full-d9ae1d835132b942.png"
+  },
+  "shared-v1:yokai_094:summer:forest": {
+    "portrait": "shared-photos/yokai_094-summer-forest-portrait-4f987e80ae622075.png",
+    "full": "shared-photos/yokai_094-summer-forest-full-a11fa574b3dc2350.png"
+  },
+  "shared-v1:yokai_094:summer:hill": {
+    "portrait": "shared-photos/yokai_094-summer-hill-portrait-9c34c2d36b0ba6f8.png",
+    "full": "shared-photos/yokai_094-summer-hill-full-f90544a0c1352dea.png"
+  },
+  "shared-v1:yokai_094:autumn:forest": {
+    "portrait": "shared-photos/yokai_094-autumn-forest-portrait-29d6497c2388dcc2.png",
+    "full": "shared-photos/yokai_094-autumn-forest-full-9bb1a1220f3bd016.png"
+  },
+  "shared-v1:yokai_094:autumn:hill": {
+    "portrait": "shared-photos/yokai_094-autumn-hill-portrait-7dcab8f12cb9e949.png",
+    "full": "shared-photos/yokai_094-autumn-hill-full-c00f3478767d58d5.png"
+  },
+  "shared-v1:yokai_094:winter:forest": {
+    "portrait": "shared-photos/yokai_094-winter-forest-portrait-3f9aaac3455f0689.png",
+    "full": "shared-photos/yokai_094-winter-forest-full-82912b899a4aebdf.png"
+  },
+  "shared-v1:yokai_094:winter:hill": {
+    "portrait": "shared-photos/yokai_094-winter-hill-portrait-1f646c86d4feb51f.png",
+    "full": "shared-photos/yokai_094-winter-hill-full-453e816ffc690a23.png"
+  },
+  "shared-v1:yokai_095:spring:forest": {
+    "portrait": "shared-photos/yokai_095-spring-forest-portrait-f4165dcfd8f1113c.png",
+    "full": "shared-photos/yokai_095-spring-forest-full-d7b406b1109d74af.png"
+  },
+  "shared-v1:yokai_095:spring:hill": {
+    "portrait": "shared-photos/yokai_095-spring-hill-portrait-92ff79e83da00b16.png",
+    "full": "shared-photos/yokai_095-spring-hill-full-5e588eaeafc731af.png"
+  },
+  "shared-v1:yokai_096:spring:forest": {
+    "portrait": "shared-photos/yokai_096-spring-forest-portrait-fb2de265208f5951.png",
+    "full": "shared-photos/yokai_096-spring-forest-full-1f674941210f6a41.png"
+  },
+  "shared-v1:yokai_096:spring:hill": {
+    "portrait": "shared-photos/yokai_096-spring-hill-portrait-5fe9752a86845e11.png",
+    "full": "shared-photos/yokai_096-spring-hill-full-deef7851817a375c.png"
+  },
+  "shared-v1:yokai_097:summer:forest": {
+    "portrait": "shared-photos/yokai_097-summer-forest-portrait-e206f93cdda45d4d.png",
+    "full": "shared-photos/yokai_097-summer-forest-full-60acd3296d3fac8a.png"
+  },
+  "shared-v1:yokai_097:summer:hill": {
+    "portrait": "shared-photos/yokai_097-summer-hill-portrait-6629f1a36f960d21.png",
+    "full": "shared-photos/yokai_097-summer-hill-full-f3db1bdb429968dd.png"
+  },
+  "shared-v1:yokai_098:summer:forest": {
+    "portrait": "shared-photos/yokai_098-summer-forest-portrait-f0bde42d9f17b87e.png",
+    "full": "shared-photos/yokai_098-summer-forest-full-14f40888838cbd47.png"
+  },
+  "shared-v1:yokai_098:summer:hill": {
+    "portrait": "shared-photos/yokai_098-summer-hill-portrait-7c4de207f30e9807.png",
+    "full": "shared-photos/yokai_098-summer-hill-full-a3212d916749bf33.png"
+  },
+  "shared-v1:yokai_099:autumn:forest": {
+    "portrait": "shared-photos/yokai_099-autumn-forest-portrait-0d2d6bc13c8d6af3.png",
+    "full": "shared-photos/yokai_099-autumn-forest-full-bae17b3deb1cc71b.png"
+  },
+  "shared-v1:yokai_099:autumn:hill": {
+    "portrait": "shared-photos/yokai_099-autumn-hill-portrait-c2fc4c431366e847.png",
+    "full": "shared-photos/yokai_099-autumn-hill-full-a3bfd34f5ade70f1.png"
+  },
+  "shared-v1:yokai_100:autumn:forest": {
+    "portrait": "shared-photos/yokai_100-autumn-forest-portrait-d4b8a339ded1f69b.png",
+    "full": "shared-photos/yokai_100-autumn-forest-full-cdd30b100642388d.png"
+  },
+  "shared-v1:yokai_100:autumn:hill": {
+    "portrait": "shared-photos/yokai_100-autumn-hill-portrait-bc97c56451361854.png",
+    "full": "shared-photos/yokai_100-autumn-hill-full-11e8cb1483149f40.png"
+  },
+  "shared-v1:yokai_101:winter:forest": {
+    "portrait": "shared-photos/yokai_101-winter-forest-portrait-c7b83af349a2fb23.png",
+    "full": "shared-photos/yokai_101-winter-forest-full-ffab28fe0659cbf5.png"
+  },
+  "shared-v1:yokai_101:winter:hill": {
+    "portrait": "shared-photos/yokai_101-winter-hill-portrait-7dd5ec50082693b2.png",
+    "full": "shared-photos/yokai_101-winter-hill-full-2e023a79525cbda5.png"
+  },
+  "shared-v1:yokai_102:winter:forest": {
+    "portrait": "shared-photos/yokai_102-winter-forest-portrait-b986eaad5139c87a.png",
+    "full": "shared-photos/yokai_102-winter-forest-full-bc63927ec3fd25bf.png"
+  },
+  "shared-v1:yokai_102:winter:hill": {
+    "portrait": "shared-photos/yokai_102-winter-hill-portrait-809e8cfb26123cf6.png",
+    "full": "shared-photos/yokai_102-winter-hill-full-782846f3c31b0bd9.png"
+  }
+}

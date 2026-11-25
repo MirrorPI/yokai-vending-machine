@@ -1,0 +1,9 @@
+/* In PiP the browser owns the outer size and may enforce a minimum. */
+.pip-fold { position: absolute !important; z-index: 5; top: 10px; left: 112px; min-height: 30px; padding: 3px 7px; font-size: 11px; }
+body:has(.pip-folded) { min-width: 0; min-height: 0; background: #e9edf1; }
+.pip-folded { position: fixed; inset: 0; display: grid; padding: 0; }
+.pip-folded button { width: 100%; height: 100%; min-height: 36px; padding: 4px 12px; border: 0; border-radius: 0; background: #e9edf1; color: #4d5b69; cursor: pointer; }
+.pip-folded button:hover { background: #dfe6ed; }
+.pip-folded button:focus-visible { outline: 2px solid #4a79a8; outline-offset: -3px; }
+.pip-folded-icons { display: flex; align-items: center; justify-content: space-evenly; width: 100%; height: 100%; gap: 12px; pointer-events: none; }
+.pip-folded-icons svg { display: block; width: 20px; height: 20px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }

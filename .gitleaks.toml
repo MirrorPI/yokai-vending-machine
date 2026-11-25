@@ -1,0 +1,7 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Non-secret photo fixture identifier and local preference key"
+matchTarget = "secret"
+regexes = ['''^(yokai_001_winter|halfandhalf\.ads\.rounds\.v1)$''']

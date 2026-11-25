@@ -1,0 +1,36 @@
+.season-control { position:absolute; top:44px; right:10px; z-index:6; color:#eee7cc; font-size:12px; }
+.season-control summary { position:relative; cursor:pointer; list-style:none; min-height:30px; padding:5px 10px;
+  border:2px solid transparent; border-image:url('../app/art/stone-settings.svg') 12 14 fill / 12px 14px / 0 stretch;
+  color:#fff1cc; font-weight:760; text-shadow:0 -1px #1d2822,0 1px #26332b,1px 2px #25322a; image-rendering:pixelated; }
+.season-control summary::after { content:''; position:absolute; top:-4px; right:4px; width:26px; height:9px;
+  background:var(--stone-growth) center / contain no-repeat; image-rendering:pixelated; pointer-events:none; }
+.season-control summary::-webkit-details-marker { display:none; }
+.season-control summary:focus-visible { outline:2px solid #e6cc8b; outline-offset:3px; }
+.season-control-menu { position:absolute; right:0; top:36px; width:min(244px,calc(100vw - 44px)); padding:14px; border:1px solid #818875; border-radius:13px; background:#172b23f5; box-shadow:0 8px 24px #0006; }
+.season-control-menu p { font-size:13px; line-height:1.6; margin:8px 0; }
+.game-shell .season-control-menu button { min-height:32px; padding:5px 7px; font-size:13px; width:100%; }
+.season-control-group { min-width:0; margin:12px 0 8px; padding:0; border:0; }
+.season-control-group--locked { padding:9px 6px 10px; border:1px solid #b9a77799; border-radius:9px; background:#101e194d; box-shadow:inset 0 0 12px #050d0833; }
+.season-control-group legend { margin-inline:auto; padding:0 9px; color:#e0ce9e; }
+.season-control-progress { display:flex; align-items:center; justify-content:center; gap:7px; font-size:13px; font-variant-numeric:tabular-nums; line-height:20px; }
+.season-control-progress .season-lock { width:17px; height:19px; }
+.season-control-options { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:4px; }
+.game-shell .season-control-options button { padding-inline:3px; white-space:nowrap; }
+.season-control-menu button[aria-pressed=true] { outline:1px solid #e6cc8b; color:#ffe4a0; }
+.season-control-menu button:disabled { opacity:.6; cursor:default; }
+.season-control-menu small { display:block; line-height:1.6; color:#bac7ad; margin-top:5px; }
+
+.season-control summary { display:flex; align-items:center; gap:6px; }
+.season-lock { width:14px; height:16px; flex:none; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; color:#d8c58f; }
+
+/* Each choice keeps its own weather, independent of the currently displayed season. */
+.game-shell .season-control-options button[data-season="spring"] { --stone-face:url('../app/art/stone-arch.svg'); --stone-growth:url('../app/art/weather-spring.svg'); }
+.game-shell .season-control-options button[data-season="summer"] { --stone-face:url('../app/art/stone-shard.svg'); --stone-growth:url('./weather-rain.svg'); }
+.game-shell .season-control-options button[data-season="autumn"] { --stone-face:url('../app/art/stone-chip.svg'); --stone-growth:url('../app/art/weather-autumn.svg'); }
+.game-shell .season-control-options button[data-season="winter"] { --stone-face:url('../app/art/stone-seal.svg'); --stone-growth:url('../app/art/weather-winter.svg'); }
+.game-shell .season-control-options button[data-season] { --growth-width:26px; --growth-edge:4px; }
+.game-shell .season-control-options button[data-season="summer"]::before { content:''; position:absolute; inset:6px 5px;
+  background:linear-gradient(145deg,#9dcad02e,transparent 42%,#193b5255); pointer-events:none; }
+
+.season-control-progress { text-align: center; font-size: 12px; }
+.game-shell .season-control-options button:disabled { opacity: .8; }
